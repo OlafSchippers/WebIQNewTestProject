@@ -1,0 +1,110 @@
+{
+    "templates": {
+        "root": [
+            {
+                "type": 1,
+                "ui": "container",
+                "controlType": 4,
+                "tagName": "DIV",
+                "attributes": {
+                    "data-ui": "container",
+                    "data-config-name": "res://node-p7qok3tkn3s/config",
+                    "class": "node-p7qok3tkn3s",
+                    "_nodeid": "node-p7qok3tkn3s"
+                },
+                "children": [
+                    {
+                        "type": 1,
+                        "ui": "container",
+                        "controlType": 4,
+                        "tagName": "DIV",
+                        "attributes": {
+                            "data-ui": "container",
+                            "data-config-name": "res://node-qkl3v17k1cm/config",
+                            "class": "node-qkl3v17k1cm",
+                            "_nodeid": "node-qkl3v17k1cm"
+                        },
+                        "children": [
+                            {
+                                "attributes": {
+                                    "data-ui": "iframe",
+                                    "_nodeid": "node-t1n3fr7gb6s",
+                                    "class": "node-t1n3fr7gb6s",
+                                    "data-config-name": "res://node-t1n3fr7gb6s/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "ui": "iframe",
+                                    "class-name": "iframe",
+                                    "name": "iframe",
+                                    "template": "default/iframe",
+                                    "src": "about:blank",
+                                    "disable-scrollbar": false
+                                },
+                                "controlType": 1,
+                                "id": "node-t1n3fr7gb6s",
+                                "parent": "node-qkl3v17k1cm",
+                                "tagName": "DIV",
+                                "template": "root",
+                                "type": 1,
+                                "ui": "iframe",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "groupConfig": null
+                            }
+                        ],
+                        "id": "node-qkl3v17k1cm",
+                        "parentGroupId": null,
+                        "parent": "node-p7qok3tkn3s",
+                        "template": "root",
+                        "groupConfig": null,
+                        "controlConfig": {
+                            "ui": "container",
+                            "class-name": "iq-container",
+                            "type": "iqflex",
+                            "flex-orientation": "column",
+                            "flex-none": true,
+                            "flex-wrap": false,
+                            "flex-primary-align": "start",
+                            "flex-secondary-align": "stretch",
+                            "flex-line-align": "start",
+                            "name": "content",
+                            "template": null,
+                            "_designer_": {
+                                "variant": "iq-flex-v-layout"
+                            }
+                        },
+                        "variant": "iq-flex-v-layout"
+                    }
+                ],
+                "id": "node-p7qok3tkn3s",
+                "parentGroupId": null,
+                "parent": null,
+                "template": "root",
+                "groupConfig": null,
+                "controlConfig": {
+                    "ui": "container",
+                    "class-name": "iq-container",
+                    "type": "iqflex",
+                    "flex-orientation": "column",
+                    "flex-none": true,
+                    "flex-wrap": false,
+                    "flex-primary-align": "start",
+                    "flex-secondary-align": "stretch",
+                    "flex-line-align": "start",
+                    "name": "root",
+                    "template": null,
+                    "_designer_": {
+                        "variant": "iq-flex-v-layout"
+                    }
+                },
+                "variant": "iq-flex-v-layout"
+            }
+        ]
+    },
+    "groups": {
+        "map": {},
+        "ids": {}
+    }
+}

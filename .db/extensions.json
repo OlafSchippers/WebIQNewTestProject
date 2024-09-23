@@ -1,0 +1,25 @@
+{
+    "authenticationRealms": [
+        {
+            "canCreateInitialUser": false,
+            "configuration": {},
+            "description": "Authentication realm using an internal SQLite database.",
+            "displayName": "Internal User Database",
+            "enabled": true,
+            "libraryPath": "auth_sqlite",
+            "name": "internal",
+            "priority": 0
+        }
+    ],
+    "extensions": [
+        {
+            "configuration": {},
+            "description": null,
+            "enabled": true,
+            "libraryPath": "internal:simulation",
+            "name": "Internal",
+            "type": "io"
+        }
+    ],
+    "version": 0
+}

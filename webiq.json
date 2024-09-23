@@ -1,0 +1,35 @@
+{
+    "name": "newtestproject",
+    "description": "",
+    "title": "NewTestProject",
+    "type": "app",
+    "version": "1.0",
+    "published": true,
+    "requires": {
+        "visuals": "^2.15.10+48432"
+    },
+    "grid": {
+        "x": 8,
+        "y": 8,
+        "visible": true,
+        "snap": false
+    },
+    "numTags": 10,
+    "numIoHandlers": 0,
+    "lastEdit": 1727079377,
+    "lastEditor": "admin",
+    "lastEditorData": {
+        "user": "OLASCH",
+        "hostname": "BE20DLTP",
+        "platform": {
+            "architecture": "x64",
+            "platform": "win32",
+            "type": "Windows_NT"
+        },
+        "webiq": {
+            "connect": "2.15.10 (release/2.15.10/8cd13f34)",
+            "designer": "2.15.7 v2.15.10 08edec70c07097d81f4cfdfbfb1b7bc1bd58e2e4",
+            "visuals": "2.15.10 Build 48432"
+        }
+    }
+}

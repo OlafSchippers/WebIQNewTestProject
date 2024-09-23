@@ -1,0 +1,12 @@
+{
+    "recorders": [],
+    "trends": [
+        {
+            "description": "This is the default trend. You may remove this and/or create your own.",
+            "items": [],
+            "objectReferenceId": 1,
+            "trendName": "Trend"
+        }
+    ],
+    "version": 0
+}

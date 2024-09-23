@@ -1,0 +1,468 @@
+{
+    "items": [
+        {
+            "accessGroup": null,
+            "alias": "DSaw",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DSaw"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DSin",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": -100,
+                "upper": 100
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DSin"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DRandBool",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandBool"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DRandInt",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandInt"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DRandFloat",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandFloat"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "Systemzeit",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 250,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "Systemzeit"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "SBool",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 1
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SBool"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "SFloat",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SFloat"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "SInt",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SInt"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "SString",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SString"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        }
+    ],
+    "methods": [],
+    "simulationVariables": [
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "triangle",
+            "initialValue": 1,
+            "interval": 100,
+            "limits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DSaw"
+            }
+        },
+        {
+            "dataType": "float",
+            "description": null,
+            "function": "sine",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": -100.0,
+                "upper": 100.0
+            },
+            "parameters": [
+                1
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DSin"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "random",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandBool"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "random",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandInt"
+            }
+        },
+        {
+            "dataType": "float",
+            "description": null,
+            "function": "random",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 100.0
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "DRandFloat"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "time",
+            "initialValue": "",
+            "interval": 250,
+            "limits": {
+                "lower": -2147483648,
+                "upper": 2147483647
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "Systemzeit"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SBool"
+            }
+        },
+        {
+            "dataType": "float",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 100.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SFloat"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0,
+                "upper": 100
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SInt"
+            }
+        },
+        {
+            "dataType": "string",
+            "description": null,
+            "function": "storage",
+            "initialValue": "",
+            "interval": 100,
+            "limits": null,
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "SString"
+            }
+        }
+    ],
+    "version": 0
+}
