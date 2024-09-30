@@ -1,0 +1,31 @@
+/* css/custom/ToggleStyleSheetGlobal.css */
+
+.iq-button-toggle.ToggleStyleSheetGlobal {
+    padding-top: 15px!important;
+    padding-right: 15px!important;
+    padding-bottom: 15px!important;
+    padding-left: 15px!important;
+    background: #1421e1!important;
+    border-color: #000!important;
+    border-width: 5px!important;
+    border-radius: 30px!important;
+    border-style: dotted!important;
+    width: 248px!important
+}
+
+.iq-button-toggle.ToggleStyleSheetGlobal .iq-label:not(.iq-toggle-label) {
+    font-size: 25px!important;
+    color: #f8f7f7!important
+}
+
+/*normally the label stays on the left, to center the label on the button use justify-content 
+With the iq-on-state and iq-off state you can specify it with each state, without it is global for on and off state*/
+.iq-button-toggle.ToggleStyleSheetGlobal .iq-button.iq-on-state {
+    justify-content: center;
+
+}
+
+.iq-button-toggle.ToggleStyleSheetGlobal .iq-button.iq-off-state {
+    justify-content: right;
+
+}

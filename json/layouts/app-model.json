@@ -427,81 +427,116 @@
                         "children": [
                             {
                                 "attributes": {
-                                    "data-ui": "iq-button-rocker",
-                                    "_nodeid": "node-t2tvgbrl3oa",
-                                    "class": "node-t2tvgbrl3oa",
-                                    "data-config-name": "res://node-t2tvgbrl3oa/config"
+                                    "data-ui": "container",
+                                    "_nodeid": "node-ztyzrceao2f",
+                                    "class": "node-ztyzrceao2f",
+                                    "data-config-name": "res://node-ztyzrceao2f/config"
                                 },
-                                "children": [],
+                                "children": [
+                                    {
+                                        "attributes": {
+                                            "data-ui": "iq-button-rocker",
+                                            "_nodeid": "node-t2tvgbrl3oa",
+                                            "class": "node-t2tvgbrl3oa",
+                                            "data-config-name": "res://node-t2tvgbrl3oa/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "class-name": "iq-button-rocker iq-variant-01 iq-icon-variant-01",
+                                            "template": "default/iq-button-rocker.iq-variant-01",
+                                            "name": "iq-button-rocker",
+                                            "ui": "iq-button-rocker",
+                                            "label": "Dit is een rocker button",
+                                            "item": "virtual:ButtonColorSwitch",
+                                            "min": null,
+                                            "max": null,
+                                            "unit": "[Unit]",
+                                            "unit-text": "Vele liters",
+                                            "auto-label": true,
+                                            "auto-unit-text": true,
+                                            "auto-min": true,
+                                            "auto-max": true,
+                                            "step": 1,
+                                            "auto-step": true,
+                                            "type": 2,
+                                            "auto-type": true,
+                                            "decimal-delimiter": ".",
+                                            "numpad-enabled": false,
+                                            "precision": -1,
+                                            "auto-precision": true,
+                                            "show-icon": false,
+                                            "icon-src": null,
+                                            "icon-title": null,
+                                            "icon-class": null,
+                                            "auto-repeat": true,
+                                            "auto-repeat-interval": 250,
+                                            "tooltip": null,
+                                            "_appearances_": [
+                                                {
+                                                    "modifier": "RockerStyleSheet1",
+                                                    "condition": null
+                                                }
+                                            ]
+                                        },
+                                        "controlType": 1,
+                                        "id": "node-t2tvgbrl3oa",
+                                        "parent": "node-ztyzrceao2f",
+                                        "tagName": "DIV",
+                                        "template": "node-u0kg8gg0uzc",
+                                        "type": 1,
+                                        "ui": "iq-button-rocker",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "style": {
+                                            "ui": "iq-button-rocker",
+                                            "general": {
+                                                "width": {
+                                                    "value": 342,
+                                                    "unit": "px"
+                                                },
+                                                "height": {
+                                                    "value": 96,
+                                                    "unit": "px"
+                                                }
+                                            },
+                                            "media": {},
+                                            "devStyle": {},
+                                            "align": "TOP_LEFT"
+                                        },
+                                        "groupConfig": null
+                                    }
+                                ],
                                 "controlConfig": {
-                                    "class-name": "iq-button-rocker iq-variant-01 iq-icon-variant-01",
-                                    "template": "default/iq-button-rocker.iq-variant-01",
-                                    "name": "iq-button-rocker",
-                                    "ui": "iq-button-rocker",
-                                    "label": "[Label]",
-                                    "item": "virtual:ButtonColorSwitch",
-                                    "min": null,
-                                    "max": null,
-                                    "unit": "[Unit]",
-                                    "unit-text": "[Unit]",
-                                    "auto-label": true,
-                                    "auto-unit-text": true,
-                                    "auto-min": true,
-                                    "auto-max": true,
-                                    "step": 1,
-                                    "auto-step": true,
-                                    "type": 2,
-                                    "auto-type": true,
-                                    "decimal-delimiter": ".",
-                                    "numpad-enabled": false,
-                                    "precision": -1,
-                                    "auto-precision": true,
-                                    "show-icon": false,
-                                    "icon-src": null,
-                                    "icon-title": null,
-                                    "icon-class": null,
-                                    "auto-repeat": true,
-                                    "auto-repeat-interval": 250,
-                                    "tooltip": null
+                                    "class-name": "iq-container",
+                                    "type": "iqflex",
+                                    "flex-orientation": "column",
+                                    "flex-none": true,
+                                    "flex-wrap": false,
+                                    "flex-primary-align": "start",
+                                    "flex-secondary-align": "stretch",
+                                    "flex-line-align": "start",
+                                    "name": "container",
+                                    "template": null
                                 },
-                                "controlType": 1,
-                                "id": "node-t2tvgbrl3oa",
+                                "controlType": 4,
+                                "id": "node-ztyzrceao2f",
                                 "parent": "node-feezj9gplb8",
                                 "tagName": "DIV",
                                 "template": "node-u0kg8gg0uzc",
                                 "type": 1,
-                                "ui": "iq-button-rocker",
-                                "variant": null,
+                                "ui": "container",
+                                "variant": "iq-flex-v-layout",
                                 "groupId": null,
                                 "parentGroupId": null,
                                 "style": {
-                                    "ui": "iq-button-rocker",
+                                    "ui": "container",
                                     "general": {
-                                        "padding-top": {
-                                            "value": 15,
-                                            "unit": "px"
+                                        "height": {
+                                            "value": 100,
+                                            "unit": "%"
                                         },
-                                        "padding-right": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "padding-bottom": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "padding-left": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "border-width": {
-                                            "value": 1,
-                                            "unit": "px"
-                                        },
-                                        "border-radius": {
-                                            "value": 25,
-                                            "unit": "px"
-                                        },
-                                        "border-style": "solid"
+                                        "flex": "1 1 auto"
                                     },
                                     "media": {},
                                     "devStyle": {},
@@ -511,211 +546,201 @@
                             },
                             {
                                 "attributes": {
-                                    "data-ui": "iq-button",
-                                    "_nodeid": "node-w7hmk09zdzs",
-                                    "class": "node-w7hmk09zdzs",
-                                    "data-config-name": "res://node-w7hmk09zdzs/config"
+                                    "data-ui": "container",
+                                    "_nodeid": "node-45xzey9k1yi",
+                                    "class": "node-45xzey9k1yi",
+                                    "data-config-name": "res://node-45xzey9k1yi/config"
                                 },
-                                "children": [],
+                                "children": [
+                                    {
+                                        "attributes": {
+                                            "data-ui": "iq-button",
+                                            "_nodeid": "node-w7hmk09zdzs",
+                                            "class": "node-w7hmk09zdzs",
+                                            "data-config-name": "res://node-w7hmk09zdzs/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "class-name": "iq-button iq-variant-01",
+                                            "template": "default/iq-button.iq-variant-01",
+                                            "action": null,
+                                            "show-text": true,
+                                            "disable-item-lock": false,
+                                            "monoflop": false,
+                                            "monoflop-value": 1,
+                                            "monoflop-interval": 100,
+                                            "name": "iq-button",
+                                            "ui": "iq-button",
+                                            "label": "[Label]",
+                                            "item": "virtual:ButtonColorSwitch",
+                                            "auto-label": true,
+                                            "icon-src": null,
+                                            "icon-title": null,
+                                            "icon-class": null,
+                                            "label-from-item": false,
+                                            "write-bool": true,
+                                            "action-release": null,
+                                            "action-while-pressed": null,
+                                            "interval-while-pressed": null,
+                                            "action-press": null,
+                                            "disable-alarms": false,
+                                            "show-icon": false,
+                                            "on-value": 1,
+                                            "off-value": 0,
+                                            "tooltip": null,
+                                            "_appearances_": [
+                                                {
+                                                    "modifier": "ButtonStyleSheetGlobal",
+                                                    "parent": "ButtonStyleSheetGlobal",
+                                                    "condition": null
+                                                },
+                                                {
+                                                    "modifier": "ButtonStyleSheet1",
+                                                    "parent": "ButtonStyleSheet1",
+                                                    "condition": {
+                                                        "type": "condition",
+                                                        "mode": "AND",
+                                                        "elements": [
+                                                            {
+                                                                "type": "comparison",
+                                                                "operator": "eq",
+                                                                "operand1": {
+                                                                    "type": "item",
+                                                                    "value": "virtual:ButtonColorSwitch"
+                                                                },
+                                                                "operand2": {
+                                                                    "type": "value",
+                                                                    "value": 1
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "modifier": "ButtonStyleSheet2",
+                                                    "parent": "ButtonStyleSheet2",
+                                                    "condition": {
+                                                        "type": "condition",
+                                                        "mode": "AND",
+                                                        "elements": [
+                                                            {
+                                                                "type": "comparison",
+                                                                "operator": "eq",
+                                                                "operand1": {
+                                                                    "type": "item",
+                                                                    "value": "virtual:ButtonColorSwitch"
+                                                                },
+                                                                "operand2": {
+                                                                    "type": "value",
+                                                                    "value": 0
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "controlType": 1,
+                                        "id": "node-w7hmk09zdzs",
+                                        "parent": "node-45xzey9k1yi",
+                                        "tagName": "DIV",
+                                        "template": "node-u0kg8gg0uzc",
+                                        "type": 1,
+                                        "ui": "iq-button",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "groupConfig": null
+                                    },
+                                    {
+                                        "attributes": {
+                                            "data-ui": "iq-button-toggle",
+                                            "_nodeid": "node-0wasg624dhkm",
+                                            "class": "node-0wasg624dhkm",
+                                            "data-config-name": "res://node-0wasg624dhkm/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "class-name": "iq-button-toggle iq-variant-01",
+                                            "template": "default/iq-button-toggle.iq-variant-01",
+                                            "name": "iq-button-toggle",
+                                            "ui": "iq-button-toggle",
+                                            "label": "[Label]",
+                                            "item": "virtual:ButtonColorSwitch",
+                                            "auto-label": true,
+                                            "on-value": 1,
+                                            "off-value": 0,
+                                            "confirm-on": false,
+                                            "confirm-off": false,
+                                            "on-label": "ON",
+                                            "off-label": "OFF",
+                                            "on-icon-src": null,
+                                            "on-icon-class": null,
+                                            "on-tooltip": null,
+                                            "off-icon-src": null,
+                                            "off-icon-class": null,
+                                            "off-tooltip": null,
+                                            "confirm-on-text": "${V_CONFIRM_ON}",
+                                            "confirm-off-text": "${V_CONFIRM_OFF}",
+                                            "on-show-icon": false,
+                                            "on-show-text": true,
+                                            "off-show-icon": false,
+                                            "off-show-text": true,
+                                            "show-icon": false,
+                                            "show-text": true,
+                                            "on-action": [],
+                                            "off-action": [],
+                                            "icon-src": null,
+                                            "icon-class": null,
+                                            "tooltip": null,
+                                            "_appearances_": [
+                                                {
+                                                    "modifier": "ToggleStyleSheetGlobal",
+                                                    "condition": null
+                                                }
+                                            ]
+                                        },
+                                        "controlType": 1,
+                                        "id": "node-0wasg624dhkm",
+                                        "parent": "node-45xzey9k1yi",
+                                        "tagName": "DIV",
+                                        "template": "node-u0kg8gg0uzc",
+                                        "type": 1,
+                                        "ui": "iq-button-toggle",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "groupConfig": null
+                                    }
+                                ],
                                 "controlConfig": {
-                                    "class-name": "iq-button iq-variant-01",
-                                    "template": "default/iq-button.iq-variant-01",
-                                    "action": null,
-                                    "show-text": true,
-                                    "disable-item-lock": false,
-                                    "monoflop": false,
-                                    "monoflop-value": 1,
-                                    "monoflop-interval": 100,
-                                    "name": "iq-button",
-                                    "ui": "iq-button",
-                                    "label": "[Label]",
-                                    "item": "virtual:ButtonColorSwitch",
-                                    "auto-label": true,
-                                    "icon-src": null,
-                                    "icon-title": null,
-                                    "icon-class": null,
-                                    "label-from-item": false,
-                                    "write-bool": true,
-                                    "action-release": null,
-                                    "action-while-pressed": null,
-                                    "interval-while-pressed": null,
-                                    "action-press": null,
-                                    "disable-alarms": false,
-                                    "show-icon": false,
-                                    "on-value": 1,
-                                    "off-value": 0,
-                                    "tooltip": null,
-                                    "_appearances_": [
-                                        {
-                                            "modifier": "ButtonStyleSheetGlobal",
-                                            "parent": "ButtonStyleSheetGlobal",
-                                            "condition": null
-                                        },
-                                        {
-                                            "modifier": "ButtonStyleSheet1",
-                                            "parent": "ButtonStyleSheet1",
-                                            "condition": {
-                                                "type": "condition",
-                                                "mode": "AND",
-                                                "elements": [
-                                                    {
-                                                        "type": "comparison",
-                                                        "operator": "eq",
-                                                        "operand1": {
-                                                            "type": "item",
-                                                            "value": "virtual:ButtonColorSwitch"
-                                                        },
-                                                        "operand2": {
-                                                            "type": "value",
-                                                            "value": 1
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "modifier": "ButtonStyleSheet2",
-                                            "parent": "ButtonStyleSheet2",
-                                            "condition": {
-                                                "type": "condition",
-                                                "mode": "AND",
-                                                "elements": [
-                                                    {
-                                                        "type": "comparison",
-                                                        "operator": "eq",
-                                                        "operand1": {
-                                                            "type": "item",
-                                                            "value": "virtual:ButtonColorSwitch"
-                                                        },
-                                                        "operand2": {
-                                                            "type": "value",
-                                                            "value": 0
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
+                                    "class-name": "iq-container",
+                                    "type": "iqflex",
+                                    "flex-orientation": "column",
+                                    "flex-none": true,
+                                    "flex-wrap": false,
+                                    "flex-primary-align": "start",
+                                    "flex-secondary-align": "center",
+                                    "flex-line-align": "start",
+                                    "name": "container_1",
+                                    "template": null
                                 },
-                                "controlType": 1,
-                                "id": "node-w7hmk09zdzs",
+                                "controlType": 4,
+                                "id": "node-45xzey9k1yi",
                                 "parent": "node-feezj9gplb8",
                                 "tagName": "DIV",
                                 "template": "node-u0kg8gg0uzc",
                                 "type": 1,
-                                "ui": "iq-button",
-                                "variant": null,
-                                "groupId": null,
-                                "parentGroupId": null,
-                                "groupConfig": null
-                            },
-                            {
-                                "attributes": {
-                                    "data-ui": "iq-button-toggle",
-                                    "_nodeid": "node-0wasg624dhkm",
-                                    "class": "node-0wasg624dhkm",
-                                    "data-config-name": "res://node-0wasg624dhkm/config"
-                                },
-                                "children": [],
-                                "controlConfig": {
-                                    "class-name": "iq-button-toggle iq-variant-01",
-                                    "template": "default/iq-button-toggle.iq-variant-01",
-                                    "name": "iq-button-toggle",
-                                    "ui": "iq-button-toggle",
-                                    "label": "[Label]",
-                                    "item": "virtual:ButtonColorSwitch",
-                                    "auto-label": true,
-                                    "on-value": 1,
-                                    "off-value": 0,
-                                    "confirm-on": false,
-                                    "confirm-off": false,
-                                    "on-label": "ON",
-                                    "off-label": "OFF",
-                                    "on-icon-src": null,
-                                    "on-icon-class": null,
-                                    "on-tooltip": null,
-                                    "off-icon-src": null,
-                                    "off-icon-class": null,
-                                    "off-tooltip": null,
-                                    "confirm-on-text": "${V_CONFIRM_ON}",
-                                    "confirm-off-text": "${V_CONFIRM_OFF}",
-                                    "on-show-icon": false,
-                                    "on-show-text": true,
-                                    "off-show-icon": false,
-                                    "off-show-text": true,
-                                    "show-icon": false,
-                                    "show-text": true,
-                                    "on-action": [],
-                                    "off-action": [],
-                                    "icon-src": null,
-                                    "icon-class": null,
-                                    "tooltip": null
-                                },
-                                "controlType": 1,
-                                "id": "node-0wasg624dhkm",
-                                "parent": "node-feezj9gplb8",
-                                "tagName": "DIV",
-                                "template": "node-u0kg8gg0uzc",
-                                "type": 1,
-                                "ui": "iq-button-toggle",
-                                "variant": null,
+                                "ui": "container",
+                                "variant": "iq-flex-v-layout",
                                 "groupId": null,
                                 "parentGroupId": null,
                                 "style": {
-                                    "ui": "iq-button-toggle",
+                                    "ui": "container",
                                     "general": {
-                                        "padding-top": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "padding-right": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "padding-bottom": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "padding-left": {
-                                            "value": 15,
-                                            "unit": "px"
-                                        },
-                                        "background": "#1421E1",
-                                        "border-color": "#000000",
-                                        "border-width": {
-                                            "value": 5,
-                                            "unit": "px"
-                                        },
-                                        "border-radius": {
-                                            "value": 30,
-                                            "unit": "px"
-                                        },
-                                        "border-style": "dotted",
-                                        ".iq-label:not(.iq-toggle-label)": {
-                                            "background": null,
-                                            "background-color": null,
-                                            "width": null,
-                                            "border-color": null,
-                                            "border-width": null,
-                                            "border-radius": null,
-                                            "border-style": null,
-                                            "border-top-style": null,
-                                            "border-right-style": null,
-                                            "border-bottom-style": null,
-                                            "border-left-style": null,
-                                            "box-shadow": null,
-                                            "font-family": null,
-                                            "font-size": {
-                                                "value": 25,
-                                                "unit": "px"
-                                            },
-                                            "font-weight": null,
-                                            "font-style": null,
-                                            "text-decoration": null,
-                                            "color": "#F8F7F7",
-                                            "overflow": null,
-                                            "text-overflow": null,
-                                            "white-space": null
+                                        "height": {
+                                            "value": 100,
+                                            "unit": "%"
                                         }
                                     },
                                     "media": {},
@@ -747,7 +772,20 @@
                         "variant": "iq-flex-h-layout",
                         "groupId": null,
                         "parentGroupId": null,
-                        "groupConfig": null
+                        "groupConfig": null,
+                        "style": {
+                            "ui": "container",
+                            "general": {
+                                "height": {
+                                    "value": 100,
+                                    "unit": "%"
+                                },
+                                "flex": "1 1 auto"
+                            },
+                            "media": {},
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
                     }
                 ],
                 "id": "node-msq3fltqjl",

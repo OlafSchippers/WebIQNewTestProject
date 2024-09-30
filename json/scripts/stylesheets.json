@@ -13,5 +13,15 @@
         "url": "css/custom/ButtonStyleSheet2.css",
         "description": "",
         "template": "iq-button"
+    },
+    "ToggleStyleSheetGlobal": {
+        "url": "css/custom/ToggleStyleSheetGlobal.css",
+        "description": null,
+        "template": "iq-button-toggle"
+    },
+    "RockerStyleSheet1": {
+        "url": "css/custom/RockerStyleSheet1.css",
+        "description": null,
+        "template": "iq-button-rocker"
     }
 }

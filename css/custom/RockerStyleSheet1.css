@@ -1,0 +1,24 @@
+/* css/custom/RockerStyleSheet1.css */
+
+.iq-button-rocker.RockerStyleSheet1 {
+    padding-top: 15px!important;
+    padding-right: 15px!important;
+    padding-bottom: 15px!important;
+    padding-left: 15px!important;
+    border-width: 1px!important;
+    border-radius: 25px!important;
+    border-style: solid!important;
+    //width: 405px!important
+}
+/*Fixed the size of the buttons and input by using min and max-width for both*/
+.iq-button-rocker.RockerStyleSheet1 .iq-button {
+    min-width: 15px!important;
+    max-width: 150px!important;
+    border-color: #ed0c0c!important;
+}
+
+.iq-button-rocker.RockerStyleSheet1 .iq-input {
+    background: #38c274!important;
+    min-width: 50px!important;
+    max-width: 100px!important;
+}
