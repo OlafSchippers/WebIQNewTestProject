@@ -851,7 +851,7 @@
                             "class-name": "iframe",
                             "name": "iframe",
                             "template": "default/iframe",
-                            "src": "about:blank",
+                            "src": "C:\\ProgramData\\WebIQ\\WebIQ Projects\\newtestproject\\media\\pdf\\Box2.pdf",
                             "disable-scrollbar": false
                         },
                         "controlType": 1,
