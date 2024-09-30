@@ -12,13 +12,13 @@
 }
 /*Fixed the size of the buttons and input by using min and max-width for both*/
 .iq-button-rocker.RockerStyleSheet1 .iq-button {
-    min-width: 15px!important;
-    max-width: 150px!important;
+    //min-width: 50px!important;
+    //max-width: 150px!important;
     border-color: #ed0c0c!important;
 }
 
 .iq-button-rocker.RockerStyleSheet1 .iq-input {
     background: #38c274!important;
-    min-width: 50px!important;
-    max-width: 100px!important;
+    //min-width: 50px!important;
+    //max-width: 100px!important;
 }
