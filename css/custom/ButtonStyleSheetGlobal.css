@@ -1,0 +1,64 @@
+/* css/custom/ButtonStyleSheetGlobal.css */
+
+/* control base element */
+.iq-button.ButtonStyleSheetGlobal {
+   padding-top: 15px!important;
+   padding-right: 15px!important;
+   padding-bottom: 15px!important;
+   padding-left: 15px!important;
+   background: #db2424!important;
+   border-color: #000!important;
+   border-width: 2px!important;
+   border-radius: 25px!important;
+   border-style: solid!important;
+  
+
+}
+
+/* button styling such as background */
+.iq-button.ButtonStyleSheetGlobal .iq-button .iq-on-state{
+   background: #19e642!important;
+
+}
+/*Temp disabled to test different stylesheets for on and off */
+
+.iq-button.ButtonStyleSheetGlobal .iq-button .iq-off-state{
+   background: #e61934!important;
+
+}
+
+/* hover function is gone the moment you set background color, with :hover you can set it again*/
+.iq-button.ButtonStyleSheetGlobal .iq-button:hover{
+   background: #157729!important;
+}
+/* hover function for the widget background*/
+.iq-button.ButtonStyleSheetGlobal:hover{
+   background: #3d1dca!important;
+   
+
+}
+
+
+
+
+
+/* [Variant 01] - Widget (complete) */
+.iq-button.ButtonStyleSheetGlobal.iq-variant-01 {
+    
+}
+
+/* [Variant 01] - Button */
+.iq-button.ButtonStyleSheetGlobal.iq-variant-01 .iq-button {
+    
+}
+
+/* [Variant 01] - Label */
+.iq-button.ButtonStyleSheetGlobal.iq-variant-01 .iq-label {
+    
+}
+
+/* [Variant 01] - Icon */
+.iq-button.ButtonStyleSheetGlobal.iq-variant-01 .iq-icon {
+    
+}
+

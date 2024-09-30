@@ -398,5 +398,11 @@
     "connect.error.auth-generic.internal-error": "An unexpected error occurred. Please see the backend's logfile for further information.",
     "connect.error.auth-generic.realm-not-connected": "Operation could not be completed because the authentication realm is not connected.",
     "connect.error.auth-generic.authentication-not-available": "User can't be used for authentication.",
-    "connect.error.genericBackendError": "Backend reported an error while processing API command \"<%= ERROR_COMMAND %>\": <%= ERROR_CAT %>:<%= ERROR_CODE %>:<%= ERROR_MSG %>"
+    "connect.error.genericBackendError": "Backend reported an error while processing API command \"<%= ERROR_COMMAND %>\": <%= ERROR_CAT %>:<%= ERROR_CODE %>:<%= ERROR_MSG %>",
+    "FirstScreen": "Screen 1",
+    "Buttons": "Buttons",
+    "Composite": "Composite Popup Inside",
+    "CompositePopupGlobal": "Composite Popup Global",
+    "CompositePopupComposite": "Composite Popup Composite",
+    "PDFview": "PDF"
 }

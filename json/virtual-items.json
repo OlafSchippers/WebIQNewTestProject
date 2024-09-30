@@ -1,4 +1,13 @@
 {
     "items": [
+        {
+            "name": "ButtonColorSwitch",
+            "type": 1,
+            "value": 0,
+            "min": 0,
+            "max": 1,
+            "step": 0,
+            "digits": 0
+        }
     ]
 }

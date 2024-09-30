@@ -1,1 +1,17 @@
-{}
+{
+    "ButtonStyleSheet1": {
+        "url": "css/custom/ButtonStyleSheet1.css",
+        "description": "",
+        "template": "iq-button"
+    },
+    "ButtonStyleSheetGlobal": {
+        "url": "css/custom/ButtonStyleSheetGlobal.css",
+        "description": "",
+        "template": "iq-button"
+    },
+    "ButtonStyleSheet2": {
+        "url": "css/custom/ButtonStyleSheet2.css",
+        "description": "",
+        "template": "iq-button"
+    }
+}

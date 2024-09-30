@@ -14,6 +14,38 @@
                 },
                 "children": [
                     {
+                        "attributes": {
+                            "data-ui": "container",
+                            "_nodeid": "node-yct27jmxn88",
+                            "class": "node-yct27jmxn88",
+                            "data-config-name": "res://node-yct27jmxn88/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-container",
+                            "type": "iqflex",
+                            "flex-orientation": "row",
+                            "flex-none": true,
+                            "flex-wrap": false,
+                            "flex-primary-align": "start",
+                            "flex-secondary-align": "stretch",
+                            "flex-line-align": "start",
+                            "name": "Header",
+                            "template": null
+                        },
+                        "controlType": 4,
+                        "id": "node-yct27jmxn88",
+                        "parent": "node-p7qok3tkn3s",
+                        "tagName": "DIV",
+                        "template": "root",
+                        "type": 1,
+                        "ui": "container",
+                        "variant": "iq-flex-h-layout",
+                        "groupId": null,
+                        "parentGroupId": null,
+                        "groupConfig": null
+                    },
+                    {
                         "type": 1,
                         "ui": "container",
                         "controlType": 4,
@@ -27,79 +59,247 @@
                         "children": [
                             {
                                 "attributes": {
-                                    "data-ui": "iq-button",
-                                    "_nodeid": "node-lxt5x253j",
-                                    "class": "node-lxt5x253j",
-                                    "data-config-name": "res://node-lxt5x253j/config"
+                                    "data-ui": "container",
+                                    "_nodeid": "node-wvhuyoz7828",
+                                    "class": "node-wvhuyoz7828",
+                                    "data-config-name": "res://node-wvhuyoz7828/config"
                                 },
-                                "children": [],
+                                "children": [
+                                    {
+                                        "attributes": {
+                                            "data-ui": "container",
+                                            "_nodeid": "node-grhf3xk9y8b",
+                                            "class": "node-grhf3xk9y8b",
+                                            "data-config-name": "res://node-grhf3xk9y8b/config"
+                                        },
+                                        "children": [
+                                            {
+                                                "attributes": {
+                                                    "data-ui": "iq-responsive-menu",
+                                                    "_nodeid": "node-qzk4o36b31h",
+                                                    "class": "node-qzk4o36b31h",
+                                                    "data-config-name": "res://node-qzk4o36b31h/config"
+                                                },
+                                                "children": [],
+                                                "controlConfig": {
+                                                    "class-name": "iq-responsive-menu accordion open-left",
+                                                    "name": "iq-responsive-menu",
+                                                    "template": "default/iq-responsive-menu",
+                                                    "menu": [
+                                                        {
+                                                            "label": "${Buttons}",
+                                                            "action": [
+                                                                {
+                                                                    "name": "setview",
+                                                                    "params": [
+                                                                        "node-handle:node-u0kg8gg0uzc",
+                                                                        0
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "icon-src": "pics/system/icons/bullet.svg",
+                                                            "access": null
+                                                        },
+                                                        {
+                                                            "label": "${Composite}",
+                                                            "action": [
+                                                                {
+                                                                    "name": "setview",
+                                                                    "params": [
+                                                                        "node-handle:node-u0kg8gg0uzc",
+                                                                        1
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "icon-src": "pics/system/icons/bullet.svg",
+                                                            "access": null
+                                                        },
+                                                        {
+                                                            "label": "${CompositePopupGlobal}",
+                                                            "action": [
+                                                                {
+                                                                    "name": "setview",
+                                                                    "params": [
+                                                                        "node-handle:node-u0kg8gg0uzc",
+                                                                        2
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "icon-src": "pics/system/icons/bullet.svg",
+                                                            "access": null
+                                                        },
+                                                        {
+                                                            "label": "${CompositePopupComposite}",
+                                                            "action": [
+                                                                {
+                                                                    "name": "setview",
+                                                                    "params": [
+                                                                        "node-handle:node-u0kg8gg0uzc",
+                                                                        3
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "icon-src": "pics/system/icons/bullet.svg",
+                                                            "access": null
+                                                        },
+                                                        {
+                                                            "label": "${PDFview}",
+                                                            "action": [
+                                                                {
+                                                                    "name": "setview",
+                                                                    "params": [
+                                                                        "node-handle:node-u0kg8gg0uzc",
+                                                                        4
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "icon-src": "pics/system/icons/bullet.svg",
+                                                            "access": null
+                                                        }
+                                                    ],
+                                                    "mobile-layouts": [
+                                                        "mobile",
+                                                        "wide-mobile"
+                                                    ],
+                                                    "overlay-style": {
+                                                        "background": "transparent",
+                                                        "zIndex": 1
+                                                    }
+                                                },
+                                                "controlType": 1,
+                                                "id": "node-qzk4o36b31h",
+                                                "parent": "node-grhf3xk9y8b",
+                                                "tagName": "DIV",
+                                                "template": "root",
+                                                "type": 1,
+                                                "ui": "iq-responsive-menu",
+                                                "variant": "accordion",
+                                                "groupId": null,
+                                                "parentGroupId": null,
+                                                "style": {
+                                                    "ui": "iq-responsive-menu",
+                                                    "general": {
+                                                        ".menu-wrapper": {
+                                                            "background": null,
+                                                            "background-color": null,
+                                                            "border-color": null,
+                                                            "border-width": null,
+                                                            "border-radius": null,
+                                                            "border-style": null,
+                                                            "border-top-style": null,
+                                                            "border-right-style": null,
+                                                            "border-bottom-style": null,
+                                                            "border-left-style": null,
+                                                            "box-shadow": null
+                                                        }
+                                                    },
+                                                    "media": {},
+                                                    "devStyle": {},
+                                                    "align": "TOP_LEFT"
+                                                },
+                                                "groupConfig": null
+                                            }
+                                        ],
+                                        "controlConfig": {
+                                            "class-name": "iq-container",
+                                            "type": "iqflex",
+                                            "flex-orientation": "column",
+                                            "flex-none": true,
+                                            "flex-wrap": false,
+                                            "flex-primary-align": "start",
+                                            "flex-secondary-align": "stretch",
+                                            "flex-line-align": "start",
+                                            "name": "container",
+                                            "template": null
+                                        },
+                                        "controlType": 4,
+                                        "id": "node-grhf3xk9y8b",
+                                        "parent": "node-wvhuyoz7828",
+                                        "tagName": "DIV",
+                                        "template": "root",
+                                        "type": 1,
+                                        "ui": "container",
+                                        "variant": "iq-flex-v-layout",
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "groupConfig": null
+                                    },
+                                    {
+                                        "attributes": {
+                                            "data-ui": "screen",
+                                            "_nodeid": "node-u0kg8gg0uzc",
+                                            "class": "node-u0kg8gg0uzc",
+                                            "data-config-name": "res://node-u0kg8gg0uzc/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "name": "screen",
+                                            "class-name": "screen",
+                                            "initial-view": 0,
+                                            "no-views-content": "",
+                                            "delete-inactive-views": true,
+                                            "template": "res://node-u0kg8gg0uzc/template"
+                                        },
+                                        "controlType": 3,
+                                        "id": "node-u0kg8gg0uzc",
+                                        "parent": "node-wvhuyoz7828",
+                                        "tagName": "DIV",
+                                        "template": "root",
+                                        "type": 1,
+                                        "ui": "screen",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "style": {
+                                            "ui": "screen",
+                                            "general": {
+                                                "height": {
+                                                    "value": 100,
+                                                    "unit": "%"
+                                                },
+                                                "flex": "1 1 auto"
+                                            },
+                                            "media": {},
+                                            "devStyle": {},
+                                            "align": "TOP_LEFT"
+                                        },
+                                        "groupConfig": null
+                                    }
+                                ],
                                 "controlConfig": {
-                                    "class-name": "iq-button iq-variant-01",
-                                    "template": "default/iq-button.iq-variant-01",
-                                    "action": null,
-                                    "show-text": true,
-                                    "disable-item-lock": false,
-                                    "monoflop": false,
-                                    "monoflop-value": 1,
-                                    "monoflop-interval": 100,
-                                    "name": "iq-button",
-                                    "ui": "iq-button",
-                                    "label": "[Label]",
-                                    "item": null,
-                                    "auto-label": true,
-                                    "icon-src": null,
-                                    "icon-title": null,
-                                    "icon-class": null,
-                                    "label-from-item": false,
-                                    "write-bool": false,
-                                    "action-release": null,
-                                    "action-while-pressed": null,
-                                    "interval-while-pressed": null,
-                                    "action-press": null,
-                                    "disable-alarms": false,
-                                    "show-icon": false,
-                                    "on-value": 1,
-                                    "off-value": 0,
-                                    "tooltip": null
+                                    "class-name": "iq-container",
+                                    "type": "iqflex",
+                                    "flex-orientation": "row",
+                                    "flex-none": true,
+                                    "flex-wrap": false,
+                                    "flex-primary-align": "start",
+                                    "flex-secondary-align": "stretch",
+                                    "flex-line-align": "start",
+                                    "name": "container",
+                                    "template": null
                                 },
-                                "controlType": 1,
-                                "id": "node-lxt5x253j",
+                                "controlType": 4,
+                                "id": "node-wvhuyoz7828",
                                 "parent": "node-qkl3v17k1cm",
                                 "tagName": "DIV",
                                 "template": "root",
                                 "type": 1,
-                                "ui": "iq-button",
-                                "variant": null,
+                                "ui": "container",
+                                "variant": "iq-flex-h-layout",
                                 "groupId": null,
                                 "parentGroupId": null,
-                                "groupConfig": null
-                            },
-                            {
-                                "attributes": {
-                                    "data-ui": "iframe",
-                                    "_nodeid": "node-t1n3fr7gb6s",
-                                    "class": "node-t1n3fr7gb6s",
-                                    "data-config-name": "res://node-t1n3fr7gb6s/config"
+                                "style": {
+                                    "ui": "container",
+                                    "general": {
+                                        "height": {
+                                            "value": 100,
+                                            "unit": "%"
+                                        }
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
                                 },
-                                "children": [],
-                                "controlConfig": {
-                                    "ui": "iframe",
-                                    "class-name": "iframe",
-                                    "name": "iframe",
-                                    "template": "default/iframe",
-                                    "src": "about:blank",
-                                    "disable-scrollbar": false
-                                },
-                                "controlType": 1,
-                                "id": "node-t1n3fr7gb6s",
-                                "parent": "node-qkl3v17k1cm",
-                                "tagName": "DIV",
-                                "template": "root",
-                                "type": 1,
-                                "ui": "iframe",
-                                "variant": null,
-                                "groupId": null,
-                                "parentGroupId": null,
                                 "groupConfig": null
                             }
                         ],
@@ -124,7 +324,48 @@
                                 "variant": "iq-flex-v-layout"
                             }
                         },
-                        "variant": "iq-flex-v-layout"
+                        "variant": "iq-flex-v-layout",
+                        "style": {
+                            "ui": "container",
+                            "general": {
+                                "flex": "1 1 auto"
+                            },
+                            "media": {},
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "data-ui": "container",
+                            "_nodeid": "node-usbdcy09e9",
+                            "class": "node-usbdcy09e9",
+                            "data-config-name": "res://node-usbdcy09e9/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-container",
+                            "type": "iqflex",
+                            "flex-orientation": "row",
+                            "flex-none": true,
+                            "flex-wrap": false,
+                            "flex-primary-align": "start",
+                            "flex-secondary-align": "stretch",
+                            "flex-line-align": "start",
+                            "name": "Footer",
+                            "template": null
+                        },
+                        "controlType": 4,
+                        "id": "node-usbdcy09e9",
+                        "parent": "node-p7qok3tkn3s",
+                        "tagName": "DIV",
+                        "template": "root",
+                        "type": 1,
+                        "ui": "container",
+                        "variant": "iq-flex-h-layout",
+                        "groupId": null,
+                        "parentGroupId": null,
+                        "groupConfig": null
                     }
                 ],
                 "id": "node-p7qok3tkn3s",
@@ -148,7 +389,547 @@
                         "variant": "iq-flex-v-layout"
                     }
                 },
-                "variant": "iq-flex-v-layout"
+                "variant": "iq-flex-v-layout",
+                "style": {
+                    "ui": "container",
+                    "general": {
+                        "height": {
+                            "value": 100,
+                            "unit": "%"
+                        }
+                    },
+                    "media": {},
+                    "devStyle": {},
+                    "align": "TOP_LEFT"
+                }
+            }
+        ],
+        "node-u0kg8gg0uzc": [
+            {
+                "type": 1,
+                "ui": "view",
+                "controlType": 4,
+                "tagName": "DIV",
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-msq3fltqjl",
+                    "class": "node-msq3fltqjl",
+                    "data-config-name": "res://node-msq3fltqjl/config"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "data-ui": "container",
+                            "_nodeid": "node-feezj9gplb8",
+                            "class": "node-feezj9gplb8",
+                            "data-config-name": "res://node-feezj9gplb8/config"
+                        },
+                        "children": [
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button-rocker",
+                                    "_nodeid": "node-t2tvgbrl3oa",
+                                    "class": "node-t2tvgbrl3oa",
+                                    "data-config-name": "res://node-t2tvgbrl3oa/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button-rocker iq-variant-01 iq-icon-variant-01",
+                                    "template": "default/iq-button-rocker.iq-variant-01",
+                                    "name": "iq-button-rocker",
+                                    "ui": "iq-button-rocker",
+                                    "label": "[Label]",
+                                    "item": "virtual:ButtonColorSwitch",
+                                    "min": null,
+                                    "max": null,
+                                    "unit": "[Unit]",
+                                    "unit-text": "[Unit]",
+                                    "auto-label": true,
+                                    "auto-unit-text": true,
+                                    "auto-min": true,
+                                    "auto-max": true,
+                                    "step": 1,
+                                    "auto-step": true,
+                                    "type": 2,
+                                    "auto-type": true,
+                                    "decimal-delimiter": ".",
+                                    "numpad-enabled": false,
+                                    "precision": -1,
+                                    "auto-precision": true,
+                                    "show-icon": false,
+                                    "icon-src": null,
+                                    "icon-title": null,
+                                    "icon-class": null,
+                                    "auto-repeat": true,
+                                    "auto-repeat-interval": 250,
+                                    "tooltip": null
+                                },
+                                "controlType": 1,
+                                "id": "node-t2tvgbrl3oa",
+                                "parent": "node-feezj9gplb8",
+                                "tagName": "DIV",
+                                "template": "node-u0kg8gg0uzc",
+                                "type": 1,
+                                "ui": "iq-button-rocker",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "style": {
+                                    "ui": "iq-button-rocker",
+                                    "general": {
+                                        "padding-top": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-right": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-bottom": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-left": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "border-width": {
+                                            "value": 1,
+                                            "unit": "px"
+                                        },
+                                        "border-radius": {
+                                            "value": 25,
+                                            "unit": "px"
+                                        },
+                                        "border-style": "solid"
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": null
+                            },
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button",
+                                    "_nodeid": "node-w7hmk09zdzs",
+                                    "class": "node-w7hmk09zdzs",
+                                    "data-config-name": "res://node-w7hmk09zdzs/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button iq-variant-01",
+                                    "template": "default/iq-button.iq-variant-01",
+                                    "action": null,
+                                    "show-text": true,
+                                    "disable-item-lock": false,
+                                    "monoflop": false,
+                                    "monoflop-value": 1,
+                                    "monoflop-interval": 100,
+                                    "name": "iq-button",
+                                    "ui": "iq-button",
+                                    "label": "[Label]",
+                                    "item": "virtual:ButtonColorSwitch",
+                                    "auto-label": true,
+                                    "icon-src": null,
+                                    "icon-title": null,
+                                    "icon-class": null,
+                                    "label-from-item": false,
+                                    "write-bool": true,
+                                    "action-release": null,
+                                    "action-while-pressed": null,
+                                    "interval-while-pressed": null,
+                                    "action-press": null,
+                                    "disable-alarms": false,
+                                    "show-icon": false,
+                                    "on-value": 1,
+                                    "off-value": 0,
+                                    "tooltip": null,
+                                    "_appearances_": [
+                                        {
+                                            "modifier": "ButtonStyleSheetGlobal",
+                                            "parent": "ButtonStyleSheetGlobal",
+                                            "condition": null
+                                        },
+                                        {
+                                            "modifier": "ButtonStyleSheet1",
+                                            "parent": "ButtonStyleSheet1",
+                                            "condition": {
+                                                "type": "condition",
+                                                "mode": "AND",
+                                                "elements": [
+                                                    {
+                                                        "type": "comparison",
+                                                        "operator": "eq",
+                                                        "operand1": {
+                                                            "type": "item",
+                                                            "value": "virtual:ButtonColorSwitch"
+                                                        },
+                                                        "operand2": {
+                                                            "type": "value",
+                                                            "value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "modifier": "ButtonStyleSheet2",
+                                            "parent": "ButtonStyleSheet2",
+                                            "condition": {
+                                                "type": "condition",
+                                                "mode": "AND",
+                                                "elements": [
+                                                    {
+                                                        "type": "comparison",
+                                                        "operator": "eq",
+                                                        "operand1": {
+                                                            "type": "item",
+                                                            "value": "virtual:ButtonColorSwitch"
+                                                        },
+                                                        "operand2": {
+                                                            "type": "value",
+                                                            "value": 0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "controlType": 1,
+                                "id": "node-w7hmk09zdzs",
+                                "parent": "node-feezj9gplb8",
+                                "tagName": "DIV",
+                                "template": "node-u0kg8gg0uzc",
+                                "type": 1,
+                                "ui": "iq-button",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "groupConfig": null
+                            },
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button-toggle",
+                                    "_nodeid": "node-0wasg624dhkm",
+                                    "class": "node-0wasg624dhkm",
+                                    "data-config-name": "res://node-0wasg624dhkm/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button-toggle iq-variant-01",
+                                    "template": "default/iq-button-toggle.iq-variant-01",
+                                    "name": "iq-button-toggle",
+                                    "ui": "iq-button-toggle",
+                                    "label": "[Label]",
+                                    "item": "virtual:ButtonColorSwitch",
+                                    "auto-label": true,
+                                    "on-value": 1,
+                                    "off-value": 0,
+                                    "confirm-on": false,
+                                    "confirm-off": false,
+                                    "on-label": "ON",
+                                    "off-label": "OFF",
+                                    "on-icon-src": null,
+                                    "on-icon-class": null,
+                                    "on-tooltip": null,
+                                    "off-icon-src": null,
+                                    "off-icon-class": null,
+                                    "off-tooltip": null,
+                                    "confirm-on-text": "${V_CONFIRM_ON}",
+                                    "confirm-off-text": "${V_CONFIRM_OFF}",
+                                    "on-show-icon": false,
+                                    "on-show-text": true,
+                                    "off-show-icon": false,
+                                    "off-show-text": true,
+                                    "show-icon": false,
+                                    "show-text": true,
+                                    "on-action": [],
+                                    "off-action": [],
+                                    "icon-src": null,
+                                    "icon-class": null,
+                                    "tooltip": null
+                                },
+                                "controlType": 1,
+                                "id": "node-0wasg624dhkm",
+                                "parent": "node-feezj9gplb8",
+                                "tagName": "DIV",
+                                "template": "node-u0kg8gg0uzc",
+                                "type": 1,
+                                "ui": "iq-button-toggle",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "style": {
+                                    "ui": "iq-button-toggle",
+                                    "general": {
+                                        "padding-top": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-right": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-bottom": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "padding-left": {
+                                            "value": 15,
+                                            "unit": "px"
+                                        },
+                                        "background": "#1421E1",
+                                        "border-color": "#000000",
+                                        "border-width": {
+                                            "value": 5,
+                                            "unit": "px"
+                                        },
+                                        "border-radius": {
+                                            "value": 30,
+                                            "unit": "px"
+                                        },
+                                        "border-style": "dotted",
+                                        ".iq-label:not(.iq-toggle-label)": {
+                                            "background": null,
+                                            "background-color": null,
+                                            "width": null,
+                                            "border-color": null,
+                                            "border-width": null,
+                                            "border-radius": null,
+                                            "border-style": null,
+                                            "border-top-style": null,
+                                            "border-right-style": null,
+                                            "border-bottom-style": null,
+                                            "border-left-style": null,
+                                            "box-shadow": null,
+                                            "font-family": null,
+                                            "font-size": {
+                                                "value": 25,
+                                                "unit": "px"
+                                            },
+                                            "font-weight": null,
+                                            "font-style": null,
+                                            "text-decoration": null,
+                                            "color": "#F8F7F7",
+                                            "overflow": null,
+                                            "text-overflow": null,
+                                            "white-space": null
+                                        }
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": null
+                            }
+                        ],
+                        "controlConfig": {
+                            "class-name": "iq-container",
+                            "type": "iqflex",
+                            "flex-orientation": "row",
+                            "flex-none": true,
+                            "flex-wrap": false,
+                            "flex-primary-align": "start",
+                            "flex-secondary-align": "stretch",
+                            "flex-line-align": "start",
+                            "name": "container",
+                            "template": null
+                        },
+                        "controlType": 4,
+                        "id": "node-feezj9gplb8",
+                        "parent": "node-msq3fltqjl",
+                        "tagName": "DIV",
+                        "template": "node-u0kg8gg0uzc",
+                        "type": 1,
+                        "ui": "container",
+                        "variant": "iq-flex-h-layout",
+                        "groupId": null,
+                        "parentGroupId": null,
+                        "groupConfig": null
+                    }
+                ],
+                "id": "node-msq3fltqjl",
+                "parent": null,
+                "template": "node-u0kg8gg0uzc",
+                "controlConfig": {
+                    "ui": "view",
+                    "name": "Buttons",
+                    "template": null,
+                    "class-name": "view"
+                },
+                "name": "view",
+                "groupConfig": null,
+                "parentGroupId": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-tl62ikx1udo",
+                    "class": "node-tl62ikx1udo",
+                    "data-config-name": "res://node-tl62ikx1udo/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Composite_PopupInside",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-tl62ikx1udo",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-aahwt7skqyv",
+                    "class": "node-aahwt7skqyv",
+                    "data-config-name": "res://node-aahwt7skqyv/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Composite_Popup_Global",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-aahwt7skqyv",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-rcf5tqlm8nc",
+                    "class": "node-rcf5tqlm8nc",
+                    "data-config-name": "res://node-rcf5tqlm8nc/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Composite_Popup_Composite",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-rcf5tqlm8nc",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-3ee0m5blhoc",
+                    "class": "node-3ee0m5blhoc",
+                    "data-config-name": "res://node-3ee0m5blhoc/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "PDF",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-3ee0m5blhoc",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-xoyegbwkypk",
+                    "class": "node-xoyegbwkypk",
+                    "data-config-name": "res://node-xoyegbwkypk/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Video",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-xoyegbwkypk",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-i2mxqxautq",
+                    "class": "node-i2mxqxautq",
+                    "data-config-name": "res://node-i2mxqxautq/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Alarms",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-i2mxqxautq",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
+            },
+            {
+                "attributes": {
+                    "data-ui": "view",
+                    "_nodeid": "node-h0bpo6zdo7v",
+                    "class": "node-h0bpo6zdo7v",
+                    "data-config-name": "res://node-h0bpo6zdo7v/config"
+                },
+                "children": [],
+                "controlConfig": {
+                    "name": "Trending",
+                    "template": null
+                },
+                "controlType": 4,
+                "id": "node-h0bpo6zdo7v",
+                "parent": null,
+                "tagName": "DIV",
+                "template": "node-u0kg8gg0uzc",
+                "type": 1,
+                "ui": "view",
+                "variant": null,
+                "groupId": null,
+                "parentGroupId": null,
+                "groupConfig": null
             }
         ]
     },

@@ -10,6 +10,9 @@
             "label": "English",
             "region": "GB",
             "keyboard": "us"
+        },
+        "nl-NL": {
+            "label": "nl-NL"
         }
     },
     "keyboards": {

@@ -398,5 +398,11 @@
     "connect.error.auth-generic.internal-error": "Es ist ein unerwarteter Fehler aufgetreten. Bitte die Logdatei des Backends konsultieren.",
     "connect.error.auth-generic.realm-not-connected": "Der Vorgang konnte nicht abgeschlossen werden, da der Anmeldungsdienst nicht verbunden ist.",
     "connect.error.auth-generic.authentication-not-available": "Der Benutzer kann für die Anmeldung nicht verwendet werden.",
-    "connect.error.genericBackendError": "Beim Verarbeiten des API Befehls \"<%= ERROR_COMMAND %>\" is ein Fehler aufgetreten: <%= ERROR_CAT %>:<%= ERROR_CODE %>:<%= ERROR_MSG %>"
+    "connect.error.genericBackendError": "Beim Verarbeiten des API Befehls \"<%= ERROR_COMMAND %>\" is ein Fehler aufgetreten: <%= ERROR_CAT %>:<%= ERROR_CODE %>:<%= ERROR_MSG %>",
+    "FirstScreen": "[FirstScreen]",
+    "Buttons": "[Buttons]",
+    "Composite": "[Composite]",
+    "CompositePopupGlobal": "[CompositePopupGlobal]",
+    "CompositePopupComposite": "[CompositePopupComposite]",
+    "PDFview": "[PDFview]"
 }
