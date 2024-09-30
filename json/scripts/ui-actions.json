@@ -1,1 +1,52 @@
-{}
+{
+    "ShowPDF1": {
+        "url": "js/custom-libs/ui-actions/ShowPDF1.js",
+        "description": null,
+        "meta": {
+            "name": "ShowPDF1",
+            "params": [
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "Folder"
+                    }
+                },
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "File"
+                    }
+                }
+            ],
+            "defaultParameters": [
+                "",
+                ""
+            ]
+        }
+    },
+    "ShopPDF2": {
+        "url": "js/custom-libs/ui-actions/ShopPDF2.js",
+        "description": null,
+        "meta": {
+            "name": "ShopPDF2",
+            "params": [
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "Folder"
+                    }
+                },
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "File"
+                    }
+                }
+            ],
+            "defaultParameters": [
+                "",
+                ""
+            ]
+        }
+    }
+}

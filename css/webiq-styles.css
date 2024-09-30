@@ -1,14 +1,13 @@
 .node-45xzey9k1yi {
   height: 100%!important;
-  flex: 1 1 auto!important
+  flex: 1 1 auto!important;
+  width: 100px!important
 }
 .node-8tffm1dnozg {
-  height: 100%!important
-}
-.node-feezj9gplb8 {
-  height: 100%!important;
   flex: 1 1 auto!important
 }
+.node-feezj9gplb8,
+.node-gkpasqy0jik,
 .node-p7qok3tkn3s {
   height: 100%!important
 }
@@ -16,16 +15,16 @@
   flex: 1 1 auto!important
 }
 .node-qzk4o36b31h {
-  position: absolute!important
+  position: fixed!important;
+  z-index: 999!important
 }
-.node-u0kg8gg0uzc {
+.node-u0kg8gg0uzc,
+.node-wvhuyoz7828 {
   height: 100%!important;
   flex: 1 1 auto!important
-}
-.node-wvhuyoz7828 {
-  height: 100%!important
 }
 .node-ztyzrceao2f {
   height: 100%!important;
-  flex: 1 1 auto!important
+  flex: 1 1 auto!important;
+  width: 100px!important
 }
