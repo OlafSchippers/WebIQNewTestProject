@@ -837,7 +837,48 @@
                     "class": "node-3ee0m5blhoc",
                     "data-config-name": "res://node-3ee0m5blhoc/config"
                 },
-                "children": [],
+                "children": [
+                    {
+                        "attributes": {
+                            "data-ui": "iframe",
+                            "_nodeid": "node-8tffm1dnozg",
+                            "class": "node-8tffm1dnozg",
+                            "data-config-name": "res://node-8tffm1dnozg/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "ui": "iframe",
+                            "class-name": "iframe",
+                            "name": "iframe",
+                            "template": "default/iframe",
+                            "src": "about:blank",
+                            "disable-scrollbar": false
+                        },
+                        "controlType": 1,
+                        "id": "node-8tffm1dnozg",
+                        "parent": "node-3ee0m5blhoc",
+                        "tagName": "DIV",
+                        "template": "node-u0kg8gg0uzc",
+                        "type": 1,
+                        "ui": "iframe",
+                        "variant": null,
+                        "groupId": null,
+                        "parentGroupId": null,
+                        "style": {
+                            "ui": "iframe",
+                            "general": {
+                                "height": {
+                                    "value": 100,
+                                    "unit": "%"
+                                }
+                            },
+                            "media": {},
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        },
+                        "groupConfig": null
+                    }
+                ],
                 "controlConfig": {
                     "name": "PDF",
                     "template": null
