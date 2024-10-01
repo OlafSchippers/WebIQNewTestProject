@@ -48,5 +48,30 @@
                 ""
             ]
         }
+    },
+    "ShowPDF3": {
+        "url": "js/custom-libs/ui-actions/ShowPDF3.js",
+        "description": null,
+        "meta": {
+            "name": "ShowPDF3",
+            "params": [
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "Folder"
+                    }
+                },
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "File"
+                    }
+                }
+            ],
+            "defaultParameters": [
+                "",
+                ""
+            ]
+        }
     }
 }

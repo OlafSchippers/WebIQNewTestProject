@@ -23,5 +23,15 @@
         "url": "css/custom/RockerStyleSheet1.css",
         "description": null,
         "template": "iq-button-rocker"
+    },
+    "HeaderFooterStylesheet": {
+        "url": "css/custom/HeaderFooterStylesheet.css",
+        "description": null,
+        "template": "container"
+    },
+    "HeaderFooterStylesheet1": {
+        "url": "css/custom/HeaderFooterStylesheet1.css",
+        "description": null,
+        "template": "container"
     }
 }
