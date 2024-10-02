@@ -1101,6 +1101,114 @@
                                     {
                                         "attributes": {
                                             "data-ui": "iq-button",
+                                            "_nodeid": "node-76kxlm565j8",
+                                            "class": "node-76kxlm565j8",
+                                            "data-config-name": "res://node-76kxlm565j8/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "class-name": "iq-button iq-variant-01",
+                                            "template": "default/iq-button.iq-variant-01",
+                                            "action": [
+                                                {
+                                                    "name": "ShowDocx1",
+                                                    "params": []
+                                                }
+                                            ],
+                                            "show-text": true,
+                                            "disable-item-lock": false,
+                                            "monoflop": false,
+                                            "monoflop-value": 1,
+                                            "monoflop-interval": 100,
+                                            "name": "iq-button_3",
+                                            "ui": "iq-button",
+                                            "label": "Doc",
+                                            "item": null,
+                                            "auto-label": true,
+                                            "icon-src": null,
+                                            "icon-title": null,
+                                            "icon-class": null,
+                                            "label-from-item": false,
+                                            "write-bool": false,
+                                            "action-release": null,
+                                            "action-while-pressed": null,
+                                            "interval-while-pressed": null,
+                                            "action-press": null,
+                                            "disable-alarms": true,
+                                            "show-icon": false,
+                                            "on-value": 1,
+                                            "off-value": 0,
+                                            "tooltip": null
+                                        },
+                                        "controlType": 1,
+                                        "id": "node-76kxlm565j8",
+                                        "parent": "node-yopssbp6vsc",
+                                        "tagName": "DIV",
+                                        "template": "node-u0kg8gg0uzc",
+                                        "type": 1,
+                                        "ui": "iq-button",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "groupConfig": null
+                                    },
+                                    {
+                                        "attributes": {
+                                            "data-ui": "iq-button",
+                                            "_nodeid": "node-mre369b5vcj",
+                                            "class": "node-mre369b5vcj",
+                                            "data-config-name": "res://node-mre369b5vcj/config"
+                                        },
+                                        "children": [],
+                                        "controlConfig": {
+                                            "class-name": "iq-button iq-variant-01",
+                                            "template": "default/iq-button.iq-variant-01",
+                                            "action": [
+                                                {
+                                                    "name": "ShowMP4",
+                                                    "params": []
+                                                }
+                                            ],
+                                            "show-text": true,
+                                            "disable-item-lock": false,
+                                            "monoflop": false,
+                                            "monoflop-value": 1,
+                                            "monoflop-interval": 100,
+                                            "name": "iq-button_4",
+                                            "ui": "iq-button",
+                                            "label": "MP4",
+                                            "item": null,
+                                            "auto-label": true,
+                                            "icon-src": null,
+                                            "icon-title": null,
+                                            "icon-class": null,
+                                            "label-from-item": false,
+                                            "write-bool": false,
+                                            "action-release": null,
+                                            "action-while-pressed": null,
+                                            "interval-while-pressed": null,
+                                            "action-press": null,
+                                            "disable-alarms": true,
+                                            "show-icon": false,
+                                            "on-value": 1,
+                                            "off-value": 0,
+                                            "tooltip": null
+                                        },
+                                        "controlType": 1,
+                                        "id": "node-mre369b5vcj",
+                                        "parent": "node-yopssbp6vsc",
+                                        "tagName": "DIV",
+                                        "template": "node-u0kg8gg0uzc",
+                                        "type": 1,
+                                        "ui": "iq-button",
+                                        "variant": null,
+                                        "groupId": null,
+                                        "parentGroupId": null,
+                                        "groupConfig": null
+                                    },
+                                    {
+                                        "attributes": {
+                                            "data-ui": "iq-button",
                                             "_nodeid": "node-uvaq334vt9",
                                             "class": "node-uvaq334vt9",
                                             "data-config-name": "res://node-uvaq334vt9/config"
@@ -1300,6 +1408,43 @@
                                 },
                                 "controlType": 1,
                                 "id": "node-8tffm1dnozg",
+                                "parent": "node-gkpasqy0jik",
+                                "tagName": "DIV",
+                                "template": "node-u0kg8gg0uzc",
+                                "type": 1,
+                                "ui": "iframe",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "style": {
+                                    "ui": "iframe",
+                                    "general": {
+                                        "flex": "1 1 auto"
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": null
+                            },
+                            {
+                                "attributes": {
+                                    "data-ui": "iframe",
+                                    "_nodeid": "node-0hyvry3427vr",
+                                    "class": "node-0hyvry3427vr",
+                                    "data-config-name": "res://node-0hyvry3427vr/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "ui": "iframe",
+                                    "class-name": "iframe",
+                                    "name": "iframe_1",
+                                    "template": "default/iframe",
+                                    "src": "C:\\ProgramData\\WebIQ\\WebIQ Projects\\newtestproject\\media\\pdf\\ScreenRec.mp4",
+                                    "disable-scrollbar": false
+                                },
+                                "controlType": 1,
+                                "id": "node-0hyvry3427vr",
                                 "parent": "node-gkpasqy0jik",
                                 "tagName": "DIV",
                                 "template": "node-u0kg8gg0uzc",

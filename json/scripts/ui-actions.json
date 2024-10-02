@@ -73,5 +73,23 @@
                 ""
             ]
         }
+    },
+    "ShowDocx1": {
+        "url": "js/custom-libs/ui-actions/ShowDocx1.js",
+        "description": null,
+        "meta": {
+            "name": "ShowDocx1",
+            "params": [],
+            "defaultParameters": []
+        }
+    },
+    "ShowMP4": {
+        "url": "js/custom-libs/ui-actions/ShowMP4.js",
+        "description": null,
+        "meta": {
+            "name": "ShowMP4",
+            "params": [],
+            "defaultParameters": []
+        }
     }
 }
