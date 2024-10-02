@@ -16,7 +16,7 @@
     actions["ShowMP4"] = function(parameters) {
         //Place your code here
         let sIframe = "root.content.container.screen.PDF.container.iframe"; //parameters[0];
-        let sSrc= "C:\ProgramData\WebIQ\WebIQ Projects\newtestproject\media\pdf\ScreenRec.mp4"//"media/pdf/ScreenRec.mp4"; //parameters[1];
+        let sSrc= "media/pdf/ScreenRec.mp4"//"media/pdf/ScreenRec.mp4"; //parameters[1];
 
         let ctrl = shmi.ctrl(sIframe); // find the 1st element with matching name
         // to find out the full name of the ctrl look into ctrl.name
