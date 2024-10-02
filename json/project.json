@@ -8,9 +8,9 @@
     "loglevel": 3,
     "show-load-screen": true,
     "auto-login": {
-        "enabled": false,
-        "user": "",
-        "password": ""
+        "enabled": true,
+        "user": "admin",
+        "password": "123"
     },
     "max-connection-attemps": -1,
     "socket-timeout": -1,
@@ -18,5 +18,9 @@
     "localesMap": {
         "0": "deutsch",
         "1": "english"
+    },
+    "keyboard": {
+        "enabled": false,
+        "language-selection": false
     }
 }

@@ -1,1 +1,6 @@
-{}
+{
+    "Testscript": {
+        "url": "js/custom-libs/local-scripts/Testscript.js",
+        "description": null
+    }
+}

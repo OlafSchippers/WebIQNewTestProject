@@ -4,7 +4,7 @@
             "accessGroup": null,
             "alias": "DSaw",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -34,7 +34,7 @@
             "accessGroup": null,
             "alias": "DSin",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": -100,
                 "upper": 100
@@ -64,7 +64,7 @@
             "accessGroup": null,
             "alias": "DRandBool",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -91,7 +91,7 @@
             "accessGroup": null,
             "alias": "DRandInt",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 100
@@ -121,7 +121,7 @@
             "accessGroup": null,
             "alias": "DRandFloat",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 100
@@ -151,7 +151,7 @@
             "accessGroup": null,
             "alias": "Systemzeit",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -178,7 +178,7 @@
             "accessGroup": null,
             "alias": "SBool",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 1
@@ -208,7 +208,7 @@
             "accessGroup": null,
             "alias": "SFloat",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 100
@@ -238,7 +238,7 @@
             "accessGroup": null,
             "alias": "SInt",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 100
@@ -268,7 +268,7 @@
             "accessGroup": null,
             "alias": "SString",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -281,6 +281,87 @@
             "plcIdentifier": {
                 "namespace": null,
                 "node": "SString"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "variable1",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "variable1"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "variable2",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "variable2"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "FileVariable",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "FileVariable"
             },
             "prewarnLimits": null,
             "recordingThreshold": null,
@@ -461,6 +542,54 @@
             "plcIdentifier": {
                 "namespace": null,
                 "node": "SString"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": -2147483648,
+                "upper": 2147483647
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "variable1"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": -2147483648,
+                "upper": 2147483647
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "variable2"
+            }
+        },
+        {
+            "dataType": "string",
+            "description": null,
+            "function": "storage",
+            "initialValue": "",
+            "interval": 100,
+            "limits": null,
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "FileVariable"
             }
         }
     ],

@@ -564,7 +564,7 @@
                                     "flex-none": true,
                                     "flex-wrap": false,
                                     "flex-primary-align": "start",
-                                    "flex-secondary-align": "stretch",
+                                    "flex-secondary-align": "start",
                                     "flex-line-align": "start",
                                     "name": "container",
                                     "template": null
@@ -766,7 +766,7 @@
                                     "flex-none": true,
                                     "flex-wrap": false,
                                     "flex-primary-align": "start",
-                                    "flex-secondary-align": "stretch",
+                                    "flex-secondary-align": "start",
                                     "flex-line-align": "start",
                                     "name": "container_1",
                                     "template": null
@@ -1113,8 +1113,8 @@
                                                 {
                                                     "name": "ShowPDF3",
                                                     "params": [
-                                                        "virtual:FolderVariable",
-                                                        "virtual:FileVariable"
+                                                        "",
+                                                        "FileVariable"
                                                     ]
                                                 }
                                             ],
@@ -1219,8 +1219,8 @@
                                             "template": "default/iq-input-field.iq-variant-01",
                                             "name": "iq-input-field_1",
                                             "ui": "iq-input-field",
-                                            "label": "Folder",
-                                            "item": "virtual:FileVariable",
+                                            "label": "File",
+                                            "item": "FileVariable",
                                             "min": null,
                                             "max": null,
                                             "value-alignment": "left",
