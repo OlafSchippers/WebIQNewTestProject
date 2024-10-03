@@ -103,6 +103,54 @@
                 "dest": "@node-v6ed5u7ashr",
                 "path": "item",
                 "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnActionItem",
+                "dest": "@node-fy6qoz93vn",
+                "path": "on-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnLabelText",
+                "dest": "@node-fy6qoz93vn",
+                "path": "on-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OnText}\""
+            },
+            {
+                "label": "OffLabelText",
+                "dest": "@node-fy6qoz93vn",
+                "path": "off-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OffText} \""
+            },
+            {
+                "label": "OnActionSetValueItem",
+                "dest": "@node-fy6qoz93vn",
+                "path": "on-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OffActionSetValueItem",
+                "dest": "@node-fy6qoz93vn",
+                "path": "off-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnActionValue",
+                "dest": "@node-fy6qoz93vn",
+                "path": "on-action[0].params[1]",
+                "data": "<%= 10*(Index+1) %>"
+            },
+            {
+                "label": "ConfirmOnText",
+                "dest": "@node-fy6qoz93vn",
+                "path": "confirm-on-text",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${V_CONFIRM_ON}\""
+            },
+            {
+                "label": "ConfirmOffText",
+                "dest": "@node-fy6qoz93vn",
+                "path": "confirm-off-text",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${V_CONFIRM_OFF}\""
             }
         ]
     }

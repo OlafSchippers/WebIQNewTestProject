@@ -410,5 +410,6 @@
     "StatusText": "[StatusText]",
     "PopupText": "[PopupText]",
     "OnText": "[OnText]",
-    "OffText": "[OffText]"
+    "OffText": "[OffText]",
+    "TempText": "[TempText]"
 }

@@ -410,5 +410,6 @@
     "StatusText": "Status",
     "PopupText": "PopUp",
     "OnText": "On",
-    "OffText": "Off"
+    "OffText": "Off",
+    "TempText": "Temperature"
 }

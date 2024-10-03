@@ -14,7 +14,7 @@
     "V_INVALID_PASSWORD": "[V_INVALID_PASSWORD]",
     "V_PASSWORD_EXPIRED_TITLE": "[V_PASSWORD_EXPIRED_TITLE]",
     "V_PASSWORD_CHANGE_TITLE": "[V_PASSWORD_CHANGE_TITLE]",
-    "V_CONFIRM_TITLE": "[V_CONFIRM_TITLE]",
+    "V_CONFIRM_TITLE": "Bevestiging",
     "V_OPTIONDIALOG_TITLE": "[V_OPTIONDIALOG_TITLE]",
     "V_SUN_SHORT": "[V_SUN_SHORT]",
     "V_MON_SHORT": "[V_MON_SHORT]",
@@ -47,8 +47,8 @@
     "ct2_delete_rows": "[ct2_delete_rows]",
     "ct2_nof_rows": "[ct2_nof_rows]",
     "ct2_quicksearch": "[ct2_quicksearch]",
-    "V_CONFIRM_OFF": "[V_CONFIRM_OFF]",
-    "V_CONFIRM_ON": "[V_CONFIRM_ON]",
+    "V_CONFIRM_OFF": "Werkelijk deactiveren?",
+    "V_CONFIRM_ON": "Werkelijk activeren?",
     "V_ASK_SAVE_TITLE": "[V_ASK_SAVE_TITLE]",
     "V_ASK_SAVE_MSG": "[V_ASK_SAVE_MSG]",
     "V_TEMPLATE_LOAD_FAILED": "[V_TEMPLATE_LOAD_FAILED]",
@@ -59,8 +59,8 @@
     "lbl_save": "[lbl_save]",
     "lbl_no_save": "[lbl_no_save]",
     "lbl_cancel": "[lbl_cancel]",
-    "V_CONFIRM_BTN_OK": "[V_CONFIRM_BTN_OK]",
-    "V_CONFIRM_BTN_CANCEL": "[V_CONFIRM_BTN_CANCEL]",
+    "V_CONFIRM_BTN_OK": "ja",
+    "V_CONFIRM_BTN_CANCEL": "nee",
     "V_NOTIFY_DISMISS": "[V_NOTIFY_DISMISS]",
     "user_name": "[user_name]",
     "current_pwd": "[current_pwd]",
@@ -410,5 +410,6 @@
     "StatusText": "Status",
     "PopupText": "Pop-Up",
     "OnText": "Aan",
-    "OffText": "Uit"
+    "OffText": "Uit",
+    "TempText": "Temperatuur"
 }

@@ -229,7 +229,144 @@
                             "class": "node-usbdcy09e9",
                             "data-config-name": "res://node-usbdcy09e9/config"
                         },
-                        "children": [],
+                        "children": [
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button",
+                                    "_nodeid": "node-d11d99jq6jj",
+                                    "class": "node-d11d99jq6jj",
+                                    "data-config-name": "res://node-d11d99jq6jj/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button iq-variant-01",
+                                    "template": "default/iq-button.iq-variant-01",
+                                    "action": [
+                                        {
+                                            "name": "setlocale",
+                                            "params": [
+                                                "nl-NL"
+                                            ]
+                                        }
+                                    ],
+                                    "show-text": true,
+                                    "disable-item-lock": false,
+                                    "monoflop": false,
+                                    "monoflop-value": 1,
+                                    "monoflop-interval": 100,
+                                    "name": "iq-button",
+                                    "ui": "iq-button",
+                                    "label": "",
+                                    "item": null,
+                                    "auto-label": true,
+                                    "icon-src": "pics/custom/Nederlandsevlag.png",
+                                    "icon-title": null,
+                                    "icon-class": null,
+                                    "label-from-item": false,
+                                    "write-bool": false,
+                                    "action-release": null,
+                                    "action-while-pressed": null,
+                                    "interval-while-pressed": null,
+                                    "action-press": null,
+                                    "disable-alarms": false,
+                                    "show-icon": true,
+                                    "on-value": 1,
+                                    "off-value": 0,
+                                    "tooltip": ""
+                                },
+                                "controlType": 1,
+                                "id": "node-d11d99jq6jj",
+                                "parent": "node-usbdcy09e9",
+                                "tagName": "DIV",
+                                "template": "root",
+                                "type": 1,
+                                "ui": "iq-button",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "style": {
+                                    "ui": "iq-button",
+                                    "general": {
+                                        "width": {
+                                            "value": 74,
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": null
+                            },
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button",
+                                    "_nodeid": "node-sb1iw84pnjl",
+                                    "class": "node-sb1iw84pnjl",
+                                    "data-config-name": "res://node-sb1iw84pnjl/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button iq-variant-01",
+                                    "template": "default/iq-button.iq-variant-01",
+                                    "action": [
+                                        {
+                                            "name": "setlocale",
+                                            "params": [
+                                                "en-GB"
+                                            ]
+                                        }
+                                    ],
+                                    "show-text": true,
+                                    "disable-item-lock": false,
+                                    "monoflop": false,
+                                    "monoflop-value": 1,
+                                    "monoflop-interval": 100,
+                                    "name": "iq-button_1",
+                                    "ui": "iq-button",
+                                    "label": "",
+                                    "item": null,
+                                    "auto-label": true,
+                                    "icon-src": "pics/custom/Engelsevlag.png",
+                                    "icon-title": null,
+                                    "icon-class": null,
+                                    "label-from-item": false,
+                                    "write-bool": false,
+                                    "action-release": null,
+                                    "action-while-pressed": null,
+                                    "interval-while-pressed": null,
+                                    "action-press": null,
+                                    "disable-alarms": false,
+                                    "show-icon": true,
+                                    "on-value": 1,
+                                    "off-value": 0,
+                                    "tooltip": ""
+                                },
+                                "controlType": 1,
+                                "id": "node-sb1iw84pnjl",
+                                "parent": "node-usbdcy09e9",
+                                "tagName": "DIV",
+                                "template": "root",
+                                "type": 1,
+                                "ui": "iq-button",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": null,
+                                "style": {
+                                    "ui": "iq-button",
+                                    "general": {
+                                        "width": {
+                                            "value": 74,
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": null
+                            }
+                        ],
                         "controlConfig": {
                             "class-name": "iq-container",
                             "type": "iqflex",
@@ -1826,7 +1963,15 @@
                                 "controlConfig": {
                                     "class-name": "iq-button iq-variant-01",
                                     "template": "default/iq-button.iq-variant-01",
-                                    "action": null,
+                                    "action": [
+                                        {
+                                            "name": "popup-menu",
+                                            "params": [
+                                                "node-handle:node-mks0hijoaeb@node-qm4vizeqwk8",
+                                                "open"
+                                            ]
+                                        }
+                                    ],
                                     "show-text": true,
                                     "disable-item-lock": false,
                                     "monoflop": false,
@@ -1883,26 +2028,42 @@
                                     "auto-label": false,
                                     "on-value": 1,
                                     "off-value": 0,
-                                    "confirm-on": false,
-                                    "confirm-off": false,
-                                    "on-label": "${OnText}",
-                                    "off-label": "${OffText}",
+                                    "confirm-on": true,
+                                    "confirm-off": true,
+                                    "on-label": "${HeatZoneText} ${OnText}",
+                                    "off-label": "${HeatZoneText} ${OffText} ",
                                     "on-icon-src": null,
                                     "on-icon-class": null,
                                     "on-tooltip": null,
                                     "off-icon-src": null,
                                     "off-icon-class": null,
                                     "off-tooltip": null,
-                                    "confirm-on-text": "${V_CONFIRM_ON}",
-                                    "confirm-off-text": "${V_CONFIRM_OFF}",
+                                    "confirm-on-text": "${HeatZoneText} ${V_CONFIRM_ON}",
+                                    "confirm-off-text": "${HeatZoneText} ${V_CONFIRM_OFF}",
                                     "on-show-icon": false,
                                     "on-show-text": true,
                                     "off-show-icon": false,
                                     "off-show-text": true,
                                     "show-icon": false,
                                     "show-text": true,
-                                    "on-action": [],
-                                    "off-action": [],
+                                    "on-action": [
+                                        {
+                                            "name": "write-item",
+                                            "params": [
+                                                "TestValues[0].setValue",
+                                                10
+                                            ]
+                                        }
+                                    ],
+                                    "off-action": [
+                                        {
+                                            "name": "write-item",
+                                            "params": [
+                                                "TestValues[0].setValue",
+                                                0
+                                            ]
+                                        }
+                                    ],
                                     "icon-src": null,
                                     "icon-class": null,
                                     "tooltip": null
@@ -2086,6 +2247,35 @@
                         "groupId": null,
                         "parentGroupId": "group-qm4vizeqwk8",
                         "groupConfig": "@node-v6ed5u7ashr"
+                    },
+                    {
+                        "attributes": {
+                            "data-ui": "popup-menu",
+                            "_nodeid": "node-mks0hijoaeb",
+                            "class": "node-mks0hijoaeb",
+                            "data-group-config": "@node-mks0hijoaeb",
+                            "data-config-name": "res://node-mks0hijoaeb/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "name": "PopupInComposite",
+                            "class-name": "popup-menu iq-flex",
+                            "template": "default/popup-menu",
+                            "auto-close": false,
+                            "content-template": "res://node-mks0hijoaeb/template",
+                            "tab-limit": true
+                        },
+                        "controlType": 2,
+                        "id": "node-mks0hijoaeb",
+                        "parent": "node-8dbgulsmazo",
+                        "tagName": "DIV",
+                        "template": "group-qm4vizeqwk8",
+                        "type": 1,
+                        "ui": "popup-menu",
+                        "variant": "iq-flex",
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "groupConfig": "@node-mks0hijoaeb"
                     }
                 ],
                 "id": "node-8dbgulsmazo",
@@ -2131,6 +2321,197 @@
                     "align": "TOP_LEFT"
                 },
                 "groupConfig": "@node-8dbgulsmazo"
+            }
+        ],
+        "node-mks0hijoaeb": [
+            {
+                "type": 1,
+                "ui": "container",
+                "controlType": 4,
+                "tagName": "DIV",
+                "attributes": {
+                    "data-ui": "container",
+                    "_nodeid": "node-8t4o29osiuu",
+                    "class": "node-8t4o29osiuu",
+                    "data-group-config": "@node-8t4o29osiuu",
+                    "data-config-name": "res://node-8t4o29osiuu/config"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "data-ui": "iq-button-toggle",
+                            "_nodeid": "node-xdzpvjio02d",
+                            "class": "node-xdzpvjio02d",
+                            "data-group-config": "@node-xdzpvjio02d",
+                            "data-config-name": "res://node-xdzpvjio02d/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-button-toggle iq-variant-01",
+                            "template": "default/iq-button-toggle.iq-variant-01",
+                            "name": "iq-button-toggle",
+                            "ui": "iq-button-toggle",
+                            "label": "${StatusText}",
+                            "item": "TestValues[0].status",
+                            "auto-label": true,
+                            "on-value": 1,
+                            "off-value": 0,
+                            "confirm-on": false,
+                            "confirm-off": false,
+                            "on-label": "${HeatZoneText} ${OnText}",
+                            "off-label": "${HeatZoneText} ${OffText}",
+                            "on-icon-src": null,
+                            "on-icon-class": null,
+                            "on-tooltip": null,
+                            "off-icon-src": null,
+                            "off-icon-class": null,
+                            "off-tooltip": null,
+                            "confirm-on-text": "${V_CONFIRM_ON}",
+                            "confirm-off-text": "${V_CONFIRM_OFF}",
+                            "on-show-icon": false,
+                            "on-show-text": true,
+                            "off-show-icon": false,
+                            "off-show-text": true,
+                            "show-icon": false,
+                            "show-text": true,
+                            "on-action": [],
+                            "off-action": [],
+                            "icon-src": null,
+                            "icon-class": null,
+                            "tooltip": null
+                        },
+                        "controlType": 1,
+                        "id": "node-xdzpvjio02d",
+                        "parent": "node-8t4o29osiuu",
+                        "tagName": "DIV",
+                        "template": "node-mks0hijoaeb",
+                        "type": 1,
+                        "ui": "iq-button-toggle",
+                        "variant": null,
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "groupConfig": "@node-xdzpvjio02d"
+                    },
+                    {
+                        "attributes": {
+                            "data-ui": "iq-text-display",
+                            "_nodeid": "node-rm9hljlj5s",
+                            "class": "node-rm9hljlj5s",
+                            "data-group-config": "@node-rm9hljlj5s",
+                            "data-config-name": "res://node-rm9hljlj5s/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-text-display iq-variant-01",
+                            "template": "default/iq-text-display.iq-variant-01",
+                            "name": "iq-text-display",
+                            "ui": "iq-text-display",
+                            "label": "${TempText}",
+                            "item": "TestValues[0].actValue",
+                            "min": null,
+                            "max": null,
+                            "unit": "[Unit]",
+                            "unit-text": "[Unit]",
+                            "auto-label": false,
+                            "auto-unit-text": true,
+                            "auto-min": true,
+                            "auto-max": true,
+                            "type": 2,
+                            "auto-type": true,
+                            "decimal-delimiter": ".",
+                            "precision": 2,
+                            "auto-precision": true,
+                            "show-icon": false,
+                            "show-text": true,
+                            "initial-text": "-",
+                            "icon-src": null,
+                            "icon-class": null,
+                            "icon-title": null
+                        },
+                        "controlType": 1,
+                        "id": "node-rm9hljlj5s",
+                        "parent": "node-8t4o29osiuu",
+                        "tagName": "DIV",
+                        "template": "node-mks0hijoaeb",
+                        "type": 1,
+                        "ui": "iq-text-display",
+                        "variant": null,
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "groupConfig": "@node-rm9hljlj5s"
+                    },
+                    {
+                        "attributes": {
+                            "data-ui": "iq-button-rocker",
+                            "_nodeid": "node-m1u020jzx7l",
+                            "class": "node-m1u020jzx7l",
+                            "data-group-config": "@node-m1u020jzx7l",
+                            "data-config-name": "res://node-m1u020jzx7l/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-button-rocker iq-variant-01 iq-icon-variant-01",
+                            "template": "default/iq-button-rocker.iq-variant-01",
+                            "name": "iq-button-rocker",
+                            "ui": "iq-button-rocker",
+                            "label": "${SetTemptext}",
+                            "item": "TestValues[0].setValue",
+                            "min": null,
+                            "max": null,
+                            "unit": "[Unit]",
+                            "unit-text": "[Unit]",
+                            "auto-label": true,
+                            "auto-unit-text": true,
+                            "auto-min": true,
+                            "auto-max": true,
+                            "step": 1,
+                            "auto-step": true,
+                            "type": 2,
+                            "auto-type": true,
+                            "decimal-delimiter": ".",
+                            "numpad-enabled": false,
+                            "precision": -1,
+                            "auto-precision": true,
+                            "show-icon": false,
+                            "icon-src": null,
+                            "icon-title": null,
+                            "icon-class": null,
+                            "auto-repeat": true,
+                            "auto-repeat-interval": 250,
+                            "tooltip": null
+                        },
+                        "controlType": 1,
+                        "id": "node-m1u020jzx7l",
+                        "parent": "node-8t4o29osiuu",
+                        "tagName": "DIV",
+                        "template": "node-mks0hijoaeb",
+                        "type": 1,
+                        "ui": "iq-button-rocker",
+                        "variant": null,
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "groupConfig": "@node-m1u020jzx7l"
+                    }
+                ],
+                "id": "node-8t4o29osiuu",
+                "parent": null,
+                "template": "node-mks0hijoaeb",
+                "controlConfig": {
+                    "ui": "container",
+                    "class-name": "iq-container",
+                    "type": "iqflex",
+                    "flex-orientation": "column",
+                    "flex-none": true,
+                    "flex-wrap": false,
+                    "flex-primary-align": "start",
+                    "flex-secondary-align": "stretch",
+                    "flex-line-align": "start",
+                    "name": "content",
+                    "template": null
+                },
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-8t4o29osiuu",
+                "parentGroupId": "group-qm4vizeqwk8"
             }
         ]
     },
