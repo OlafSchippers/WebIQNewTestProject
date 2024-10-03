@@ -1,1 +1,109 @@
-{}
+{
+    "group-qm4vizeqwk8": {
+        "label": "MeterSet_PopUp_Inside",
+        "icon": null,
+        "category": null,
+        "meta": [
+            {
+                "label": "content",
+                "id": "node-8dbgulsmazo",
+                "ui": "container",
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-8dbgulsmazo",
+                "patterns": []
+            },
+            {
+                "label": "container",
+                "id": "node-3gp7agv87bp",
+                "ui": "container",
+                "variant": "iq-flex-h-layout",
+                "groupConfig": "@node-3gp7agv87bp",
+                "patterns": []
+            },
+            {
+                "label": "iq-button",
+                "id": "node-h0xl5t92nmj",
+                "ui": "iq-button",
+                "variant": null,
+                "groupConfig": "@node-h0xl5t92nmj",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-toggle",
+                "id": "node-fy6qoz93vn",
+                "ui": "iq-button-toggle",
+                "variant": null,
+                "groupConfig": "@node-fy6qoz93vn",
+                "patterns": []
+            },
+            {
+                "label": "iq-radial-gauge",
+                "id": "node-yzgsvbkunj",
+                "ui": "iq-radial-gauge",
+                "variant": null,
+                "groupConfig": "@node-yzgsvbkunj",
+                "patterns": []
+            },
+            {
+                "label": "iq-input-field",
+                "id": "node-v6ed5u7ashr",
+                "ui": "iq-input-field",
+                "variant": null,
+                "groupConfig": "@node-v6ed5u7ashr",
+                "patterns": []
+            }
+        ],
+        "replacers": [
+            {
+                "id": "Index",
+                "type": "int",
+                "label": "Index Value",
+                "default": 0
+            }
+        ],
+        "snippets": [
+            {
+                "label": "Item",
+                "dest": "@node-fy6qoz93vn",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-yzgsvbkunj",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Label",
+                "dest": "@node-yzgsvbkunj",
+                "path": "label",
+                "data": "\"${HeatZoneText} <%= Index+1 %>\""
+            },
+            {
+                "label": "Label",
+                "dest": "@node-k3i6y5rveib",
+                "path": "label",
+                "data": "\"${SetTemptext} <%= Index +1%>\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-k3i6y5rveib",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Label",
+                "dest": "@node-v6ed5u7ashr",
+                "path": "label",
+                "data": "\"${SetTemptext} <%= Index+1 %>\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-v6ed5u7ashr",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            }
+        ]
+    }
+}

@@ -404,5 +404,11 @@
     "Composite": "Composite Popup Intern",
     "CompositePopupGlobal": "Composite Popup Globaal",
     "CompositePopupComposite": "Composite Popup Composite",
-    "PDFview": "PDF"
+    "PDFview": "PDF",
+    "HeatZoneText": "Verwarmingszone",
+    "SetTemptext": "Zet temperatuur",
+    "StatusText": "Status",
+    "PopupText": "Pop-Up",
+    "OnText": "Aan",
+    "OffText": "Uit"
 }

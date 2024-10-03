@@ -404,5 +404,11 @@
     "Composite": "[Composite]",
     "CompositePopupGlobal": "[CompositePopupGlobal]",
     "CompositePopupComposite": "[CompositePopupComposite]",
-    "PDFview": "[PDFview]"
+    "PDFview": "[PDFview]",
+    "HeatZoneText": "[HeatZoneText]",
+    "SetTemptext": "[SetTemptext]",
+    "StatusText": "[StatusText]",
+    "PopupText": "[PopupText]",
+    "OnText": "[OnText]",
+    "OffText": "[OffText]"
 }

@@ -91,5 +91,30 @@
             "params": [],
             "defaultParameters": []
         }
+    },
+    "ShowPDF4_2params": {
+        "url": "js/custom-libs/ui-actions/ShowPDF4_2params.js",
+        "description": null,
+        "meta": {
+            "name": "ShowPDF4_2params",
+            "params": [
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "Folder"
+                    }
+                },
+                {
+                    "type": "STRING",
+                    "options": {
+                        "label": "File"
+                    }
+                }
+            ],
+            "defaultParameters": [
+                "",
+                ""
+            ]
+        }
     }
 }

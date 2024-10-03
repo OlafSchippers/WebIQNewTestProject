@@ -295,7 +295,7 @@
             "accessGroup": null,
             "alias": "variable1",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -322,7 +322,7 @@
             "accessGroup": null,
             "alias": "variable2",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -349,7 +349,7 @@
             "accessGroup": null,
             "alias": "FileVariable",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -371,9 +371,1235 @@
             "unit": null,
             "updateFunction": null,
             "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "FolderVariable",
+            "attributes": {},
+            "description": null,
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "FolderVariable"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.actSetValue.actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "actSetValue.actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.actSetValue.status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "actSetValue.status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.actSetValue.setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "actSetValue.setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.randFloat",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "randFloat"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.randInt",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "randInt"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.saw",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "saw"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.sin",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "sin"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.staticFloat",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "staticFloat"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.staticInt",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "staticInt"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.staticString",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "TestServer",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "staticString"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[0].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[0].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[0].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[1].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[1].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[1].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[2].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[2].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[2].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[3].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[3].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[3].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[4].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[4].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[4].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[5].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[5].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[5].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[6].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[6].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[6].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[7].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[7].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[7].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[8].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[8].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[8].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[9].actValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${act}",
+            "locks": [],
+            "numberOfDecimals": 2,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].actValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": {
+                "lower": 10,
+                "upper": 140
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[9].setValue",
+            "attributes": {},
+            "description": "",
+            "displayLimits": {
+                "lower": 0,
+                "upper": 150
+            },
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${set}",
+            "locks": [],
+            "numberOfDecimals": 0,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].setValue"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 1,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "°C",
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestValues[9].status",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": " ${status}",
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].status"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
         }
     ],
-    "methods": [],
+    "methods": [
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.repeatStr",
+            "description": null,
+            "ioSource": "TestServer",
+            "objectPlcIdentifier": {
+                "namespace": 1,
+                "node": 1000
+            },
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "repeatStr"
+            }
+        },
+        {
+            "accessGroup": null,
+            "alias": "DemoServer.sqrt(x)",
+            "description": null,
+            "ioSource": "TestServer",
+            "objectPlcIdentifier": {
+                "namespace": 1,
+                "node": 1000
+            },
+            "plcIdentifier": {
+                "namespace": 1,
+                "node": "sqrt(x)"
+            }
+        }
+    ],
     "simulationVariables": [
         {
             "dataType": "i32",
@@ -590,6 +1816,570 @@
             "plcIdentifier": {
                 "namespace": null,
                 "node": "FileVariable"
+            }
+        },
+        {
+            "dataType": "string",
+            "description": null,
+            "function": "storage",
+            "initialValue": "",
+            "interval": 100,
+            "limits": null,
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "FolderVariable"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[0].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[0].status"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].setValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[1].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[1].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[2].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[2].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[3].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[3].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[4].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[4].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[5].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[5].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[6].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[6].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[7].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[7].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[8].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[8].status"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "randomramp",
+            "initialValue": 75,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 150.0
+            },
+            "parameters": [
+                "TestValues[9].setValue",
+                1,
+                2
+            ],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].actValue"
+            }
+        },
+        {
+            "dataType": "double",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": 0.0,
+                "upper": 140.0
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].setValue"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": true,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestValues[9].status"
             }
         }
     ],

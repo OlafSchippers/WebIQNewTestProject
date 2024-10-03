@@ -404,5 +404,11 @@
     "Composite": "Composite Popup Inside",
     "CompositePopupGlobal": "Composite Popup Global",
     "CompositePopupComposite": "Composite Popup Composite",
-    "PDFview": "PDF"
+    "PDFview": "PDF",
+    "HeatZoneText": "Heat Zone",
+    "SetTemptext": "Set temperature",
+    "StatusText": "Status",
+    "PopupText": "PopUp",
+    "OnText": "On",
+    "OffText": "Off"
 }

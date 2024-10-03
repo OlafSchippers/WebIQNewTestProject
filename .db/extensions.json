@@ -19,6 +19,16 @@
             "libraryPath": "internal:simulation",
             "name": "Internal",
             "type": "io"
+        },
+        {
+            "configuration": {
+                "endpoint_url": "opc.tcp://opcua.webiq.de:48010/WebIQ/DemoServer"
+            },
+            "description": null,
+            "enabled": true,
+            "libraryPath": "ioHandlerOPC",
+            "name": "TestServer",
+            "type": "io"
         }
     ],
     "version": 0
