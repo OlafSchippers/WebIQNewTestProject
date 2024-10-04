@@ -1025,13 +1025,13 @@
                             {
                                 "attributes": {
                                     "data-ui": "group",
-                                    "_nodeid": "node-x1sy1n9mx4",
-                                    "class": "node-x1sy1n9mx4",
-                                    "data-config-name": "res://node-x1sy1n9mx4/config"
+                                    "_nodeid": "node-qhf5znuierp",
+                                    "class": "node-qhf5znuierp",
+                                    "data-config-name": "res://node-qhf5znuierp/config"
                                 },
                                 "children": [],
                                 "controlConfig": {
-                                    "name": "composite",
+                                    "name": "MeterSet_1",
                                     "class-name": "group",
                                     "template": "res://group-qm4vizeqwk8/template",
                                     "groupId": "group-qm4vizeqwk8",
@@ -1040,13 +1040,13 @@
                                     }
                                 },
                                 "controlType": 2,
-                                "id": "node-x1sy1n9mx4",
+                                "id": "node-qhf5znuierp",
                                 "parent": "node-1dpu7b0a1q1",
                                 "tagName": "DIV",
                                 "template": "node-u0kg8gg0uzc",
                                 "type": 1,
                                 "ui": "group",
-                                "variant": "group-qm4vizeqwk8",
+                                "variant": "iq-flex",
                                 "groupId": "group-qm4vizeqwk8",
                                 "parentGroupId": null,
                                 "groupConfig": null
@@ -1054,13 +1054,13 @@
                             {
                                 "attributes": {
                                     "data-ui": "group",
-                                    "_nodeid": "node-cyzdot6q1sp",
-                                    "class": "node-cyzdot6q1sp",
-                                    "data-config-name": "res://node-cyzdot6q1sp/config"
+                                    "_nodeid": "node-y3vvtl0dv3",
+                                    "class": "node-y3vvtl0dv3",
+                                    "data-config-name": "res://node-y3vvtl0dv3/config"
                                 },
                                 "children": [],
                                 "controlConfig": {
-                                    "name": "composite_1",
+                                    "name": "MeterSet_2",
                                     "class-name": "group",
                                     "template": "res://group-qm4vizeqwk8/template",
                                     "groupId": "group-qm4vizeqwk8",
@@ -1069,71 +1069,13 @@
                                     }
                                 },
                                 "controlType": 2,
-                                "id": "node-cyzdot6q1sp",
+                                "id": "node-y3vvtl0dv3",
                                 "parent": "node-1dpu7b0a1q1",
                                 "tagName": "DIV",
                                 "template": "node-u0kg8gg0uzc",
                                 "type": 1,
                                 "ui": "group",
-                                "variant": "group-qm4vizeqwk8",
-                                "groupId": "group-qm4vizeqwk8",
-                                "parentGroupId": null,
-                                "groupConfig": null
-                            },
-                            {
-                                "attributes": {
-                                    "data-ui": "group",
-                                    "_nodeid": "node-5fjygrlovsn",
-                                    "class": "node-5fjygrlovsn",
-                                    "data-config-name": "res://node-5fjygrlovsn/config"
-                                },
-                                "children": [],
-                                "controlConfig": {
-                                    "name": "composite_3",
-                                    "class-name": "group",
-                                    "template": "res://group-qm4vizeqwk8/template",
-                                    "groupId": "group-qm4vizeqwk8",
-                                    "replacers": {
-                                        "Index": 3
-                                    }
-                                },
-                                "controlType": 2,
-                                "id": "node-5fjygrlovsn",
-                                "parent": "node-1dpu7b0a1q1",
-                                "tagName": "DIV",
-                                "template": "node-u0kg8gg0uzc",
-                                "type": 1,
-                                "ui": "group",
-                                "variant": "group-qm4vizeqwk8",
-                                "groupId": "group-qm4vizeqwk8",
-                                "parentGroupId": null,
-                                "groupConfig": null
-                            },
-                            {
-                                "attributes": {
-                                    "data-ui": "group",
-                                    "_nodeid": "node-x6ay7zthat",
-                                    "class": "node-x6ay7zthat",
-                                    "data-config-name": "res://node-x6ay7zthat/config"
-                                },
-                                "children": [],
-                                "controlConfig": {
-                                    "name": "composite_2",
-                                    "class-name": "group",
-                                    "template": "res://group-qm4vizeqwk8/template",
-                                    "groupId": "group-qm4vizeqwk8",
-                                    "replacers": {
-                                        "Index": 4
-                                    }
-                                },
-                                "controlType": 2,
-                                "id": "node-x6ay7zthat",
-                                "parent": "node-1dpu7b0a1q1",
-                                "tagName": "DIV",
-                                "template": "node-u0kg8gg0uzc",
-                                "type": 1,
-                                "ui": "group",
-                                "variant": "group-qm4vizeqwk8",
+                                "variant": "iq-flex",
                                 "groupId": "group-qm4vizeqwk8",
                                 "parentGroupId": null,
                                 "groupConfig": null
@@ -1954,6 +1896,80 @@
                             {
                                 "attributes": {
                                     "data-ui": "iq-button",
+                                    "_nodeid": "node-b4urpsgove",
+                                    "class": "node-b4urpsgove",
+                                    "data-group-config": "@node-b4urpsgove",
+                                    "data-config-name": "res://node-b4urpsgove/config"
+                                },
+                                "children": [],
+                                "controlConfig": {
+                                    "class-name": "iq-button iq-variant-01",
+                                    "template": "default/iq-button.iq-variant-01",
+                                    "action": [
+                                        {
+                                            "name": "dialog",
+                                            "params": [
+                                                "node-handle:node-38ig27p0obx@node-qhf5znuierp",
+                                                "show"
+                                            ]
+                                        }
+                                    ],
+                                    "show-text": true,
+                                    "disable-item-lock": false,
+                                    "monoflop": false,
+                                    "monoflop-value": 1,
+                                    "monoflop-interval": 100,
+                                    "name": "iq-button_1",
+                                    "ui": "iq-button",
+                                    "label": "Info",
+                                    "item": null,
+                                    "auto-label": true,
+                                    "icon-src": null,
+                                    "icon-title": null,
+                                    "icon-class": null,
+                                    "label-from-item": false,
+                                    "write-bool": false,
+                                    "action-release": null,
+                                    "action-while-pressed": null,
+                                    "interval-while-pressed": null,
+                                    "action-press": null,
+                                    "disable-alarms": false,
+                                    "show-icon": false,
+                                    "on-value": 1,
+                                    "off-value": 0,
+                                    "tooltip": null
+                                },
+                                "controlType": 1,
+                                "id": "node-b4urpsgove",
+                                "parent": "node-3gp7agv87bp",
+                                "tagName": "DIV",
+                                "template": "group-qm4vizeqwk8",
+                                "type": 1,
+                                "ui": "iq-button",
+                                "variant": null,
+                                "groupId": null,
+                                "parentGroupId": "group-qm4vizeqwk8",
+                                "style": {
+                                    "ui": "iq-button",
+                                    "general": {
+                                        "width": {
+                                            "value": 22,
+                                            "unit": "px"
+                                        },
+                                        "height": {
+                                            "value": 39,
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "media": {},
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                },
+                                "groupConfig": "@node-b4urpsgove"
+                            },
+                            {
+                                "attributes": {
+                                    "data-ui": "iq-button",
                                     "_nodeid": "node-h0xl5t92nmj",
                                     "class": "node-h0xl5t92nmj",
                                     "data-config-name": "res://node-h0xl5t92nmj/config",
@@ -1965,10 +1981,10 @@
                                     "template": "default/iq-button.iq-variant-01",
                                     "action": [
                                         {
-                                            "name": "popup-menu",
+                                            "name": "dialog",
                                             "params": [
-                                                "node-handle:node-mks0hijoaeb@node-qm4vizeqwk8",
-                                                "open"
+                                                "node-handle:node-7awh6bdmhai@node-qm4vizeqwk8",
+                                                "show"
                                             ]
                                         }
                                     ],
@@ -2250,32 +2266,96 @@
                     },
                     {
                         "attributes": {
-                            "data-ui": "popup-menu",
-                            "_nodeid": "node-mks0hijoaeb",
-                            "class": "node-mks0hijoaeb",
-                            "data-group-config": "@node-mks0hijoaeb",
-                            "data-config-name": "res://node-mks0hijoaeb/config"
+                            "data-ui": "dialog-box",
+                            "_nodeid": "node-7awh6bdmhai",
+                            "class": "node-7awh6bdmhai",
+                            "data-group-config": "@node-7awh6bdmhai",
+                            "data-config-name": "res://node-7awh6bdmhai/config"
                         },
                         "children": [],
                         "controlConfig": {
-                            "name": "PopupInComposite",
-                            "class-name": "popup-menu iq-flex",
-                            "template": "default/popup-menu",
-                            "auto-close": false,
-                            "content-template": "res://node-mks0hijoaeb/template",
+                            "name": "DialogInComposite",
+                            "class-name": "dialog-box",
+                            "template": "default/dialog-box",
+                            "initial-state": "hidden",
+                            "top-level": true,
+                            "title": "${HeatZoneText}",
+                            "content-template": "res://node-7awh6bdmhai/template",
                             "tab-limit": true
                         },
                         "controlType": 2,
-                        "id": "node-mks0hijoaeb",
+                        "id": "node-7awh6bdmhai",
                         "parent": "node-8dbgulsmazo",
                         "tagName": "DIV",
                         "template": "group-qm4vizeqwk8",
                         "type": 1,
-                        "ui": "popup-menu",
+                        "ui": "dialog-box",
                         "variant": "iq-flex",
                         "groupId": null,
                         "parentGroupId": "group-qm4vizeqwk8",
-                        "groupConfig": "@node-mks0hijoaeb"
+                        "style": {
+                            "ui": "dialog-box",
+                            "general": {
+                                "padding-top": {
+                                    "value": 15,
+                                    "unit": "px"
+                                },
+                                "padding-right": {
+                                    "value": 15,
+                                    "unit": "px"
+                                },
+                                "padding-bottom": {
+                                    "value": 15,
+                                    "unit": "px"
+                                },
+                                "padding-left": {
+                                    "value": 15,
+                                    "unit": "px"
+                                },
+                                ".dialog-window": {
+                                    "box-shadow": "2px 2px 0px 0px #000000"
+                                },
+                                ".dialog-header .button": {
+                                    "background": null,
+                                    "background-color": null
+                                }
+                            },
+                            "media": {},
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        },
+                        "groupConfig": "@node-7awh6bdmhai"
+                    },
+                    {
+                        "attributes": {
+                            "data-ui": "dialog-box",
+                            "_nodeid": "node-38ig27p0obx",
+                            "class": "node-38ig27p0obx",
+                            "data-group-config": "@node-38ig27p0obx",
+                            "data-config-name": "res://node-38ig27p0obx/config"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "name": "SnippetInfo",
+                            "class-name": "dialog-box",
+                            "template": "default/dialog-box",
+                            "initial-state": "hidden",
+                            "top-level": true,
+                            "title": "Info about snippets",
+                            "content-template": "res://node-38ig27p0obx/template",
+                            "tab-limit": true
+                        },
+                        "controlType": 2,
+                        "id": "node-38ig27p0obx",
+                        "parent": "node-8dbgulsmazo",
+                        "tagName": "DIV",
+                        "template": "group-qm4vizeqwk8",
+                        "type": 1,
+                        "ui": "dialog-box",
+                        "variant": "iq-flex",
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "groupConfig": "@node-38ig27p0obx"
                     }
                 ],
                 "id": "node-8dbgulsmazo",
@@ -2323,7 +2403,7 @@
                 "groupConfig": "@node-8dbgulsmazo"
             }
         ],
-        "node-mks0hijoaeb": [
+        "node-7awh6bdmhai": [
             {
                 "type": 1,
                 "ui": "container",
@@ -2331,19 +2411,19 @@
                 "tagName": "DIV",
                 "attributes": {
                     "data-ui": "container",
-                    "_nodeid": "node-8t4o29osiuu",
-                    "class": "node-8t4o29osiuu",
-                    "data-group-config": "@node-8t4o29osiuu",
-                    "data-config-name": "res://node-8t4o29osiuu/config"
+                    "_nodeid": "node-sunwljbtp9h",
+                    "class": "node-sunwljbtp9h",
+                    "data-group-config": "@node-sunwljbtp9h",
+                    "data-config-name": "res://node-sunwljbtp9h/config"
                 },
                 "children": [
                     {
                         "attributes": {
                             "data-ui": "iq-button-toggle",
-                            "_nodeid": "node-xdzpvjio02d",
-                            "class": "node-xdzpvjio02d",
-                            "data-group-config": "@node-xdzpvjio02d",
-                            "data-config-name": "res://node-xdzpvjio02d/config"
+                            "_nodeid": "node-0qjmechsgsgj",
+                            "class": "node-0qjmechsgsgj",
+                            "data-config-name": "res://node-0qjmechsgsgj/config",
+                            "data-group-config": "@node-0qjmechsgsgj"
                         },
                         "children": [],
                         "controlConfig": {
@@ -2353,7 +2433,7 @@
                             "ui": "iq-button-toggle",
                             "label": "${StatusText}",
                             "item": "TestValues[0].status",
-                            "auto-label": true,
+                            "auto-label": false,
                             "on-value": 1,
                             "off-value": 0,
                             "confirm-on": false,
@@ -2381,24 +2461,24 @@
                             "tooltip": null
                         },
                         "controlType": 1,
-                        "id": "node-xdzpvjio02d",
-                        "parent": "node-8t4o29osiuu",
+                        "id": "node-0qjmechsgsgj",
+                        "parent": "node-sunwljbtp9h",
                         "tagName": "DIV",
-                        "template": "node-mks0hijoaeb",
+                        "template": "node-7awh6bdmhai",
                         "type": 1,
                         "ui": "iq-button-toggle",
                         "variant": null,
                         "groupId": null,
                         "parentGroupId": "group-qm4vizeqwk8",
-                        "groupConfig": "@node-xdzpvjio02d"
+                        "groupConfig": "@node-0qjmechsgsgj"
                     },
                     {
                         "attributes": {
                             "data-ui": "iq-text-display",
-                            "_nodeid": "node-rm9hljlj5s",
-                            "class": "node-rm9hljlj5s",
-                            "data-group-config": "@node-rm9hljlj5s",
-                            "data-config-name": "res://node-rm9hljlj5s/config"
+                            "_nodeid": "node-78457pia55k",
+                            "class": "node-78457pia55k",
+                            "data-config-name": "res://node-78457pia55k/config",
+                            "data-group-config": "@node-78457pia55k"
                         },
                         "children": [],
                         "controlConfig": {
@@ -2429,24 +2509,24 @@
                             "icon-title": null
                         },
                         "controlType": 1,
-                        "id": "node-rm9hljlj5s",
-                        "parent": "node-8t4o29osiuu",
+                        "id": "node-78457pia55k",
+                        "parent": "node-sunwljbtp9h",
                         "tagName": "DIV",
-                        "template": "node-mks0hijoaeb",
+                        "template": "node-7awh6bdmhai",
                         "type": 1,
                         "ui": "iq-text-display",
                         "variant": null,
                         "groupId": null,
                         "parentGroupId": "group-qm4vizeqwk8",
-                        "groupConfig": "@node-rm9hljlj5s"
+                        "groupConfig": "@node-78457pia55k"
                     },
                     {
                         "attributes": {
                             "data-ui": "iq-button-rocker",
-                            "_nodeid": "node-m1u020jzx7l",
-                            "class": "node-m1u020jzx7l",
-                            "data-group-config": "@node-m1u020jzx7l",
-                            "data-config-name": "res://node-m1u020jzx7l/config"
+                            "_nodeid": "node-b2zu47v96bg",
+                            "class": "node-b2zu47v96bg",
+                            "data-config-name": "res://node-b2zu47v96bg/config",
+                            "data-group-config": "@node-b2zu47v96bg"
                         },
                         "children": [],
                         "controlConfig": {
@@ -2460,10 +2540,10 @@
                             "max": null,
                             "unit": "[Unit]",
                             "unit-text": "[Unit]",
-                            "auto-label": true,
+                            "auto-label": false,
                             "auto-unit-text": true,
                             "auto-min": true,
-                            "auto-max": true,
+                            "auto-max": false,
                             "step": 1,
                             "auto-step": true,
                             "type": 2,
@@ -2481,21 +2561,21 @@
                             "tooltip": null
                         },
                         "controlType": 1,
-                        "id": "node-m1u020jzx7l",
-                        "parent": "node-8t4o29osiuu",
+                        "id": "node-b2zu47v96bg",
+                        "parent": "node-sunwljbtp9h",
                         "tagName": "DIV",
-                        "template": "node-mks0hijoaeb",
+                        "template": "node-7awh6bdmhai",
                         "type": 1,
                         "ui": "iq-button-rocker",
                         "variant": null,
                         "groupId": null,
                         "parentGroupId": "group-qm4vizeqwk8",
-                        "groupConfig": "@node-m1u020jzx7l"
+                        "groupConfig": "@node-b2zu47v96bg"
                     }
                 ],
-                "id": "node-8t4o29osiuu",
+                "id": "node-sunwljbtp9h",
                 "parent": null,
-                "template": "node-mks0hijoaeb",
+                "template": "node-7awh6bdmhai",
                 "controlConfig": {
                     "ui": "container",
                     "class-name": "iq-container",
@@ -2510,7 +2590,88 @@
                     "template": null
                 },
                 "variant": "iq-flex-v-layout",
-                "groupConfig": "@node-8t4o29osiuu",
+                "groupConfig": "@node-sunwljbtp9h",
+                "parentGroupId": "group-qm4vizeqwk8"
+            }
+        ],
+        "node-38ig27p0obx": [
+            {
+                "type": 1,
+                "ui": "container",
+                "controlType": 4,
+                "tagName": "DIV",
+                "attributes": {
+                    "data-ui": "container",
+                    "_nodeid": "node-q0ask4edbk",
+                    "class": "node-q0ask4edbk",
+                    "data-group-config": "@node-q0ask4edbk",
+                    "data-config-name": "res://node-q0ask4edbk/config"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "data-ui": "iq-text",
+                            "_nodeid": "node-3ikp637dz8a",
+                            "class": "node-3ikp637dz8a",
+                            "data-config-name": "res://node-3ikp637dz8a/config",
+                            "data-group-config": "@node-3ikp637dz8a"
+                        },
+                        "children": [],
+                        "controlConfig": {
+                            "class-name": "iq-text iq-variant-01",
+                            "template": "default/iq-text.iq-variant-01",
+                            "name": "iq-text",
+                            "ui": "iq-text",
+                            "text": "Info: To link the popup to the composite you have to set the snippet to action-[0]-params-[0] en voeg hier \".'diaglogname' <%= index %>\" the point in front is important!",
+                            "items": []
+                        },
+                        "controlType": 1,
+                        "id": "node-3ikp637dz8a",
+                        "parent": "node-q0ask4edbk",
+                        "tagName": "DIV",
+                        "template": "node-38ig27p0obx",
+                        "type": 1,
+                        "ui": "iq-text",
+                        "variant": null,
+                        "groupId": null,
+                        "parentGroupId": "group-qm4vizeqwk8",
+                        "style": {
+                            "ui": "iq-text",
+                            "general": {
+                                "width": {
+                                    "value": 264,
+                                    "unit": "px"
+                                },
+                                "height": {
+                                    "value": 185,
+                                    "unit": "px"
+                                }
+                            },
+                            "media": {},
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        },
+                        "groupConfig": "@node-3ikp637dz8a"
+                    }
+                ],
+                "id": "node-q0ask4edbk",
+                "parent": null,
+                "template": "node-38ig27p0obx",
+                "controlConfig": {
+                    "ui": "container",
+                    "class-name": "iq-container",
+                    "type": "iqflex",
+                    "flex-orientation": "column",
+                    "flex-none": true,
+                    "flex-wrap": false,
+                    "flex-primary-align": "start",
+                    "flex-secondary-align": "stretch",
+                    "flex-line-align": "start",
+                    "name": "content",
+                    "template": null
+                },
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-q0ask4edbk",
                 "parentGroupId": "group-qm4vizeqwk8"
             }
         ]
@@ -2521,10 +2682,8 @@
                 "id": "group-qm4vizeqwk8",
                 "nodes": [
                     "node-qm4vizeqwk8",
-                    "node-x1sy1n9mx4",
-                    "node-cyzdot6q1sp",
-                    "node-5fjygrlovsn",
-                    "node-x6ay7zthat"
+                    "node-qhf5znuierp",
+                    "node-y3vvtl0dv3"
                 ]
             }
         },

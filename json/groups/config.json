@@ -51,6 +51,46 @@
                 "variant": null,
                 "groupConfig": "@node-v6ed5u7ashr",
                 "patterns": []
+            },
+            {
+                "label": "DialogInComposite",
+                "id": "node-7awh6bdmhai",
+                "ui": "dialog-box",
+                "variant": "iq-flex",
+                "groupConfig": "@node-7awh6bdmhai",
+                "patterns": []
+            },
+            {
+                "label": "content",
+                "id": "node-sunwljbtp9h",
+                "ui": "container",
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-sunwljbtp9h",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-toggle",
+                "id": "node-0qjmechsgsgj",
+                "ui": "iq-button-toggle",
+                "variant": null,
+                "groupConfig": "@node-0qjmechsgsgj",
+                "patterns": []
+            },
+            {
+                "label": "iq-text-display",
+                "id": "node-78457pia55k",
+                "ui": "iq-text-display",
+                "variant": null,
+                "groupConfig": "@node-78457pia55k",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-rocker",
+                "id": "node-b2zu47v96bg",
+                "ui": "iq-button-rocker",
+                "variant": null,
+                "groupConfig": "@node-b2zu47v96bg",
+                "patterns": []
             }
         ],
         "replacers": [
@@ -151,6 +191,78 @@
                 "dest": "@node-fy6qoz93vn",
                 "path": "confirm-off-text",
                 "data": "\"${HeatZoneText} <%= Index+1 %> ${V_CONFIRM_OFF}\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-xdzpvjio02d",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "OnLabel",
+                "dest": "@node-xdzpvjio02d",
+                "path": "on-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OnText}\""
+            },
+            {
+                "label": "OffLabel",
+                "dest": "@node-xdzpvjio02d",
+                "path": "off-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OffText}\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-rm9hljlj5s",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-m1u020jzx7l",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Max",
+                "dest": "@node-m1u020jzx7l",
+                "path": "max",
+                "data": "<%= Index+100 %>"
+            },
+            {
+                "label": "Item",
+                "dest": "@node-0qjmechsgsgj",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-78457pia55k",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-b2zu47v96bg",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Name",
+                "dest": "@node-7awh6bdmhai",
+                "path": "name",
+                "data": "\"DialogInComposite <%= Index %>\""
+            },
+            {
+                "label": "Title",
+                "dest": "@node-7awh6bdmhai",
+                "path": "title",
+                "data": "\"${HeatZoneText} <%= Index +1 %>\""
+            },
+            {
+                "label": "New Snippet",
+                "dest": "@node-h0xl5t92nmj",
+                "path": "action[0].params[0]",
+                "data": "\".DialogInComposite <%= Index %>\""
             }
         ]
     }
