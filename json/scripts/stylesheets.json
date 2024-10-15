@@ -33,5 +33,10 @@
         "url": "css/custom/HeaderFooterStylesheet1.css",
         "description": null,
         "template": "container"
+    },
+    "ColorSheet": {
+        "url": "css/custom/ColorSheet.css",
+        "description": "Central place for all color in stylesheet",
+        "template": null
     }
 }
