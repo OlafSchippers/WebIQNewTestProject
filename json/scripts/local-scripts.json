@@ -2,5 +2,25 @@
     "Testscript": {
         "url": "js/custom-libs/local-scripts/Testscript.js",
         "description": null
+    },
+    "OpenPopup": {
+        "url": "js/custom-libs/local-scripts/OpenPopup.js",
+        "description": null
+    },
+    "OpenPopuptest1": {
+        "url": "js/custom-libs/local-scripts/OpenPopuptest1.js",
+        "description": null
+    },
+    "HideContainer": {
+        "url": "js/custom-libs/local-scripts/HideContainer.js",
+        "description": null
+    },
+    "ScalingScript": {
+        "url": "js/custom-libs/local-scripts/ScalingScript.js",
+        "description": null
+    },
+    "ScalingScript1": {
+        "url": "js/custom-libs/local-scripts/ScalingScript1.js",
+        "description": null
     }
 }

@@ -271,5 +271,278 @@
         "meta": [],
         "replacers": [],
         "snippets": []
+    },
+    "group-vicmjqpj91d": {
+        "label": "Copy of MeterSet_PopUp_Global",
+        "icon": null,
+        "category": null,
+        "meta": [
+            {
+                "label": "content",
+                "id": "node-r9f3lqbzqve",
+                "ui": "container",
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-r9f3lqbzqve",
+                "patterns": []
+            },
+            {
+                "label": "container",
+                "id": "node-n9140jydtm",
+                "ui": "container",
+                "variant": "iq-flex-h-layout",
+                "groupConfig": "@node-n9140jydtm",
+                "patterns": []
+            },
+            {
+                "label": "iq-button",
+                "id": "node-d5qrbrfbbkm",
+                "ui": "iq-button",
+                "variant": null,
+                "groupConfig": "@node-d5qrbrfbbkm",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-toggle",
+                "id": "node-8ue4c6e0kln",
+                "ui": "iq-button-toggle",
+                "variant": null,
+                "groupConfig": "@node-8ue4c6e0kln",
+                "patterns": []
+            },
+            {
+                "label": "iq-radial-gauge",
+                "id": "node-vm5zsjwuns",
+                "ui": "iq-radial-gauge",
+                "variant": null,
+                "groupConfig": "@node-vm5zsjwuns",
+                "patterns": []
+            },
+            {
+                "label": "iq-input-field",
+                "id": "node-pdksvvuvea",
+                "ui": "iq-input-field",
+                "variant": null,
+                "groupConfig": "@node-pdksvvuvea",
+                "patterns": []
+            },
+            {
+                "label": "DialogInComposite",
+                "id": "node-bdkea0tq2y",
+                "ui": "dialog-box",
+                "variant": "iq-flex",
+                "groupConfig": "@node-bdkea0tq2y",
+                "patterns": []
+            },
+            {
+                "label": "content",
+                "id": "node-mjdzcygj50f",
+                "ui": "container",
+                "variant": "iq-flex-v-layout",
+                "groupConfig": "@node-mjdzcygj50f",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-toggle",
+                "id": "node-yhrv502lv2",
+                "ui": "iq-button-toggle",
+                "variant": null,
+                "groupConfig": "@node-yhrv502lv2",
+                "patterns": []
+            },
+            {
+                "label": "iq-text-display",
+                "id": "node-4uw0qflezzl",
+                "ui": "iq-text-display",
+                "variant": null,
+                "groupConfig": "@node-4uw0qflezzl",
+                "patterns": []
+            },
+            {
+                "label": "iq-button-rocker",
+                "id": "node-yo4311ewyzp",
+                "ui": "iq-button-rocker",
+                "variant": null,
+                "groupConfig": "@node-yo4311ewyzp",
+                "patterns": []
+            }
+        ],
+        "replacers": [
+            {
+                "id": "Index",
+                "type": "int",
+                "label": "Index Value",
+                "default": 0
+            }
+        ],
+        "snippets": [
+            {
+                "label": "Item",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-vm5zsjwuns",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Label",
+                "dest": "@node-vm5zsjwuns",
+                "path": "label",
+                "data": "\"${HeatZoneText} <%= Index+1 %>\""
+            },
+            {
+                "label": "Label",
+                "dest": "@undefined",
+                "path": "label",
+                "data": "\"${SetTemptext} <%= Index +1%>\""
+            },
+            {
+                "label": "Item",
+                "dest": "@undefined",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Label",
+                "dest": "@node-pdksvvuvea",
+                "path": "label",
+                "data": "\"${SetTemptext} <%= Index+1 %>\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-pdksvvuvea",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnActionItem",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "on-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnLabelText",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "on-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OnText}\""
+            },
+            {
+                "label": "OffLabelText",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "off-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OffText} \""
+            },
+            {
+                "label": "OnActionSetValueItem",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "on-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OffActionSetValueItem",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "off-action[0].params[0]",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "OnActionValue",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "on-action[0].params[1]",
+                "data": "<%= 10*(Index+1) %>"
+            },
+            {
+                "label": "ConfirmOnText",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "confirm-on-text",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${V_CONFIRM_ON}\""
+            },
+            {
+                "label": "ConfirmOffText",
+                "dest": "@node-8ue4c6e0kln",
+                "path": "confirm-off-text",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${V_CONFIRM_OFF}\""
+            },
+            {
+                "label": "Item",
+                "dest": "@undefined",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "OnLabel",
+                "dest": "@undefined",
+                "path": "on-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OnText}\""
+            },
+            {
+                "label": "OffLabel",
+                "dest": "@undefined",
+                "path": "off-label",
+                "data": "\"${HeatZoneText} <%= Index+1 %> ${OffText}\""
+            },
+            {
+                "label": "Item",
+                "dest": "@undefined",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Item",
+                "dest": "@undefined",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Max",
+                "dest": "@undefined",
+                "path": "max",
+                "data": "<%= Index+100 %>"
+            },
+            {
+                "label": "Item",
+                "dest": "@node-yhrv502lv2",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].status\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-4uw0qflezzl",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].actValue\""
+            },
+            {
+                "label": "Item",
+                "dest": "@node-yo4311ewyzp",
+                "path": "item",
+                "data": "\"TestValues[<%= Index %>].setValue\""
+            },
+            {
+                "label": "Name",
+                "dest": "@node-bdkea0tq2y",
+                "path": "name",
+                "data": "\"DialogInComposite <%= Index %>\""
+            },
+            {
+                "label": "Title",
+                "dest": "@node-bdkea0tq2y",
+                "path": "title",
+                "data": "\"${HeatZoneText} <%= Index +1 %>\""
+            },
+            {
+                "label": "New Snippet",
+                "dest": "@node-d5qrbrfbbkm",
+                "path": "action[0].params[0]",
+                "data": "\".DialogInComposite <%= Index %>\""
+            }
+        ]
+    },
+    "group-fyf8yj5cglv": {
+        "label": "[Unnamed]",
+        "meta": [],
+        "replacers": [],
+        "snippets": []
     }
 }

@@ -38,5 +38,10 @@
         "url": "css/custom/ColorSheet.css",
         "description": "Central place for all color in stylesheet",
         "template": null
+    },
+    "custom-stylesheet": {
+        "url": "css/custom/custom-stylesheet.css",
+        "description": null,
+        "template": "iq-button"
     }
 }

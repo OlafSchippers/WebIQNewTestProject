@@ -14,9 +14,9 @@
         "visible": true,
         "snap": false
     },
-    "numTags": 54,
+    "numTags": 57,
     "numIoHandlers": 1,
-    "lastEdit": 1729005573,
+    "lastEdit": 1731063003,
     "lastEditor": "admin",
     "lastEditorData": {
         "user": "OLASCH",
@@ -31,5 +31,6 @@
             "designer": "2.15.7 v2.15.10 08edec70c07097d81f4cfdfbfb1b7bc1bd58e2e4",
             "visuals": "2.15.10 Build 48432"
         }
-    }
+    },
+    "lastLayout": 3
 }

@@ -1,0 +1,13 @@
+/* css/custom/custom-stylesheet.css */
+
+.iq-button.custom-stylesheet {
+    padding-top: 15px!important;
+    padding-right: 15px!important;
+    padding-bottom: 15px!important;
+    padding-left: 15px!important;
+    background: #c33232!important;
+    border-color: #000!important;
+    border-width: 2px!important;
+    border-radius: 15px!important;
+    border-style: dotted!important
+}

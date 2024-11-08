@@ -403,7 +403,7 @@
             "accessGroup": null,
             "alias": "DemoServer.actSetValue.actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -430,7 +430,7 @@
             "accessGroup": null,
             "alias": "DemoServer.actSetValue.status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -457,7 +457,7 @@
             "accessGroup": null,
             "alias": "DemoServer.actSetValue.setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -484,7 +484,7 @@
             "accessGroup": null,
             "alias": "DemoServer.randFloat",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -511,7 +511,7 @@
             "accessGroup": null,
             "alias": "DemoServer.randInt",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -538,7 +538,7 @@
             "accessGroup": null,
             "alias": "DemoServer.saw",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -565,7 +565,7 @@
             "accessGroup": null,
             "alias": "DemoServer.sin",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -592,7 +592,7 @@
             "accessGroup": null,
             "alias": "DemoServer.staticFloat",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -619,7 +619,7 @@
             "accessGroup": null,
             "alias": "DemoServer.staticInt",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -646,7 +646,7 @@
             "accessGroup": null,
             "alias": "DemoServer.staticString",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -673,7 +673,7 @@
             "accessGroup": null,
             "alias": "TestValues[0].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -706,7 +706,7 @@
             "accessGroup": null,
             "alias": "TestValues[0].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -736,7 +736,7 @@
             "accessGroup": null,
             "alias": "TestValues[0].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -763,7 +763,7 @@
             "accessGroup": null,
             "alias": "TestValues[1].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -790,7 +790,7 @@
             "accessGroup": null,
             "alias": "TestValues[1].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -820,7 +820,7 @@
             "accessGroup": null,
             "alias": "TestValues[1].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -853,7 +853,7 @@
             "accessGroup": null,
             "alias": "TestValues[2].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -886,7 +886,7 @@
             "accessGroup": null,
             "alias": "TestValues[2].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -916,7 +916,7 @@
             "accessGroup": null,
             "alias": "TestValues[2].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -943,7 +943,7 @@
             "accessGroup": null,
             "alias": "TestValues[3].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -976,7 +976,7 @@
             "accessGroup": null,
             "alias": "TestValues[3].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1006,7 +1006,7 @@
             "accessGroup": null,
             "alias": "TestValues[3].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1033,7 +1033,7 @@
             "accessGroup": null,
             "alias": "TestValues[4].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1066,7 +1066,7 @@
             "accessGroup": null,
             "alias": "TestValues[4].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1096,7 +1096,7 @@
             "accessGroup": null,
             "alias": "TestValues[4].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1123,7 +1123,7 @@
             "accessGroup": null,
             "alias": "TestValues[5].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1156,7 +1156,7 @@
             "accessGroup": null,
             "alias": "TestValues[5].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1186,7 +1186,7 @@
             "accessGroup": null,
             "alias": "TestValues[5].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1213,7 +1213,7 @@
             "accessGroup": null,
             "alias": "TestValues[6].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1246,7 +1246,7 @@
             "accessGroup": null,
             "alias": "TestValues[6].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1276,7 +1276,7 @@
             "accessGroup": null,
             "alias": "TestValues[6].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1303,7 +1303,7 @@
             "accessGroup": null,
             "alias": "TestValues[7].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1336,7 +1336,7 @@
             "accessGroup": null,
             "alias": "TestValues[7].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1366,7 +1366,7 @@
             "accessGroup": null,
             "alias": "TestValues[7].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1393,7 +1393,7 @@
             "accessGroup": null,
             "alias": "TestValues[8].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1426,7 +1426,7 @@
             "accessGroup": null,
             "alias": "TestValues[8].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1456,7 +1456,7 @@
             "accessGroup": null,
             "alias": "TestValues[8].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1483,7 +1483,7 @@
             "accessGroup": null,
             "alias": "TestValues[9].actValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1516,7 +1516,7 @@
             "accessGroup": null,
             "alias": "TestValues[9].setValue",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": {
                 "lower": 0,
                 "upper": 150
@@ -1546,7 +1546,7 @@
             "accessGroup": null,
             "alias": "TestValues[9].status",
             "attributes": {},
-            "description": "",
+            "description": null,
             "displayLimits": null,
             "flags": {
                 "discrete": false
@@ -1566,6 +1566,89 @@
             "tolerances": null,
             "trendDisplayLimits": null,
             "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "OpenPopupBOOL",
+            "attributes": {},
+            "description": null,
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "OpenPopupBOOL"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "TestInt",
+            "attributes": {
+                "attribute1": ""
+            },
+            "description": null,
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestInt"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": null,
+            "updateFunction": null,
+            "warnLimits": null
+        },
+        {
+            "accessGroup": null,
+            "alias": "intscale",
+            "attributes": {},
+            "description": "",
+            "displayLimits": null,
+            "flags": {
+                "discrete": false
+            },
+            "interval": 100,
+            "ioSource": "Internal",
+            "label": null,
+            "locks": [],
+            "numberOfDecimals": null,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "intscale"
+            },
+            "prewarnLimits": null,
+            "recordingThreshold": null,
+            "step": 0,
+            "tolerances": null,
+            "trendDisplayLimits": null,
+            "unit": "3",
             "updateFunction": null,
             "warnLimits": null
         }
@@ -2380,6 +2463,57 @@
             "plcIdentifier": {
                 "namespace": null,
                 "node": "TestValues[9].status"
+            }
+        },
+        {
+            "dataType": "boolean",
+            "description": null,
+            "function": "storage",
+            "initialValue": false,
+            "interval": 100,
+            "limits": {
+                "lower": false,
+                "upper": true
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "OpenPopupBOOL"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": -2147483648,
+                "upper": 2147483647
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "TestInt"
+            }
+        },
+        {
+            "dataType": "i32",
+            "description": null,
+            "function": "storage",
+            "initialValue": 0,
+            "interval": 100,
+            "limits": {
+                "lower": -2147483648,
+                "upper": 2147483647
+            },
+            "parameters": [],
+            "persistent": false,
+            "plcIdentifier": {
+                "namespace": null,
+                "node": "intscale"
             }
         }
     ],

@@ -1,3 +1,19 @@
 {
-    "unitClasses": [ ]
+    "unitClasses": [ 
+
+	{ 	
+	"name": "Scaling * 0,1",
+	"unitClass": 3,
+	"unitText": "",
+	"factor": 0.1,
+	"offset": 0
+	},
+	{
+	"name": "Scaling * 0,01",
+	"unitClass": 4,
+	"unitText": "",
+	"factor": 0.01,
+	"offset": 0
+	}
+ ]
 }
